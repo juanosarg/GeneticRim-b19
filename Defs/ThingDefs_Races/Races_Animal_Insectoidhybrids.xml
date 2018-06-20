@@ -167,7 +167,7 @@
         <commonality>0.2</commonality>
       </li>
     </tools>
-    <verbs>
+    <!--<verbs>
 	  <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
@@ -179,7 +179,7 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
       
-    </verbs>
+    </verbs>-->
 	<comps>
 		
 		<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
