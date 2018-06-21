@@ -124,7 +124,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Boomalope/Boomabear/Boomabear</texPath>
          
-          <drawSize>1.5</drawSize>
+          <drawSize>2</drawSize>
           <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.6, 0.45, 0.45)</volume>
@@ -140,7 +140,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Boomalope/Boomabear/Boomabear</texPath>
           
-          <drawSize>2.0</drawSize>
+          <drawSize>3</drawSize>
           <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
@@ -276,7 +276,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Boomalope/Boomachicken/Boomachicken</texPath>
-          <drawSize>1.5</drawSize>
+          <drawSize>2</drawSize>
           <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.6, 0.45, 0.45)</volume>
@@ -291,7 +291,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Boomalope/Boomachicken/Boomachicken</texPath>
-          <drawSize>2.0</drawSize>
+          <drawSize>3</drawSize>
           <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
@@ -419,7 +419,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Boomalope/Boomffalo/Boomffalo</texPath>
-          <drawSize>1.5</drawSize>
+          <drawSize>2</drawSize>
           <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.6, 0.45, 0.45)</volume>
@@ -434,7 +434,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Boomalope/Boomffalo/Boomffalo</texPath>
-          <drawSize>2.0</drawSize>
+          <drawSize>3</drawSize>
           <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
@@ -572,7 +572,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Boomalope/Boomwolf/Boomwolf</texPath>
-          <drawSize>1.5</drawSize>
+          <drawSize>2</drawSize>
           <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.6, 0.45, 0.45)</volume>
@@ -587,7 +587,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Boomalope/Boomwolf/Boomwolf</texPath>
-          <drawSize>2.0</drawSize>
+          <drawSize>3</drawSize>
           <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
