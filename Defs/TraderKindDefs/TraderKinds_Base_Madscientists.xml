@@ -64,7 +64,7 @@
 					<max>500</max>
 				</countRange>
 			</li>
-			      <li Class="StockGenerator_Animals">
+			     <!-- <li Class="StockGenerator_Animals">
         <tradeTagsBuy>
           <li>AnimalUncommon</li>
 		 <li>AnimalExotic</li>
@@ -78,7 +78,7 @@
           <min>1</min>
           <max>1</max>
         </countRange>
-      </li>
+      </li>-->
 	  <li Class="StockGenerator_BuySingleDef">
         <thingDef>GR_EmuFatOintment</thingDef>
       </li>
