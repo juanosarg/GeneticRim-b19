@@ -51,8 +51,8 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
-		<commonality>0.2</commonality>
-
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
       </li>
       <li>
         <capacities>
@@ -69,8 +69,7 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
-		<commonality>0.3</commonality>
-
+        <chanceFactor>0.3</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -80,8 +79,8 @@
         <power>6</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
-      </li>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>      </li>
     </tools>
 
 	
@@ -128,6 +127,9 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
+	<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
   
@@ -148,8 +150,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>1.0</drawSize>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -162,8 +164,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>1.2</drawSize>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -176,8 +178,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>1.9</drawSize>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>3.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -224,8 +226,8 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
-      </li>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>      </li>
     </tools>
 
 	
@@ -272,6 +274,9 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
+	<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
   
@@ -292,8 +297,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>1.0</drawSize>
+          <texPath>Things/Pawn/Animal/Boomalope/Boomsnake/Dessicated_Boomsnake</texPath>
+          <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -306,8 +311,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>1.2</drawSize>
+          <texPath>Things/Pawn/Animal/Boomalope/Boomsnake/Dessicated_Boomsnake</texPath>
+          <drawSize>1.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -320,8 +325,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>1.9</drawSize>
+          <texPath>Things/Pawn/Animal/Boomalope/Boomsnake/Dessicated_Boomsnake</texPath>
+          <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -363,8 +368,8 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
-      </li>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>      </li>
     </tools>
     
 	<comps>
@@ -422,6 +427,9 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
+	<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
   
@@ -442,8 +450,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>1.0</drawSize>
+          <texPath>Things/Pawn/Animal/Chicken/Chickenlizard/Dessicated_Chickenlizard</texPath>
+          <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -456,8 +464,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>1.2</drawSize>
+          <texPath>Things/Pawn/Animal/Chicken/Chickenlizard/Dessicated_Chickenlizard</texPath>
+          <drawSize>1.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -470,8 +478,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>1.9</drawSize>
+          <texPath>Things/Pawn/Animal/Chicken/Chickenlizard/Dessicated_Chickenlizard</texPath>
+          <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -558,6 +566,9 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
+	<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
   
@@ -578,8 +589,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>1.0</drawSize>
+          <texPath>Things/Pawn/Animal/Muffalo/Muffalokomodo/Dessicated_Muffalokomodo</texPath>
+          <drawSize>1.75</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -592,8 +603,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>1.2</drawSize>
+          <texPath>Things/Pawn/Animal/Muffalo/Muffalokomodo/Dessicated_Muffalokomodo</texPath>
+          <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -606,8 +617,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>1.9</drawSize>
+          <texPath>Things/Pawn/Animal/Muffalo/Muffalokomodo/Dessicated_Muffalokomodo</texPath>
+          <drawSize>3.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -645,8 +656,8 @@
         <power>4</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
-      </li>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>      </li>
     </tools>
    
 	<comps>
@@ -732,6 +743,9 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
+	<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
   
@@ -752,7 +766,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-		  <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSnake</texPath>
+          <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
           <drawSize>1.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -766,8 +780,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-		  <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSnake</texPath>
-          <drawSize>1.2</drawSize>
+          <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+          <drawSize>1.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -780,7 +794,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-		  <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSnake</texPath>
+          <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
           <drawSize>1.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -843,8 +857,8 @@
         <power>11</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
-      </li>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>      </li>
     </tools>
     
 	<comps>
@@ -904,6 +918,9 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
+	<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
   
@@ -926,8 +943,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSnake</texPath>
-          <drawSize>1.5</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbolizard/Dessicated_Thrumbolizard</texPath>
+          <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -940,8 +957,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSnake</texPath>
-          <drawSize>1.75</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbolizard/Dessicated_Thrumbolizard</texPath>
+          <drawSize>4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -954,8 +971,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSnake</texPath>
-          <drawSize>2</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbolizard/Dessicated_Thrumbolizard</texPath>
+          <drawSize>4.8</drawSize>
         </dessicatedBodyGraphicData>
         <butcherBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
@@ -1035,8 +1052,8 @@
         <power>3</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
-      </li>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>      </li>
     </tools>
    
 	<comps>
@@ -1107,6 +1124,9 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
+	<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
   
@@ -1125,8 +1145,8 @@
           <drawSize>1.8</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1</drawSize>
+          <texPath>Things/Pawn/Animal/Wolf/Wolfsnake/Dessicated_Wolfsnake</texPath>
+          <drawSize>1.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -1139,8 +1159,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.5</drawSize>
+          <texPath>Things/Pawn/Animal/Wolf/Wolfsnake/Dessicated_Wolfsnake</texPath>
+          <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -1153,8 +1173,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.95</drawSize>
+          <texPath>Things/Pawn/Animal/Wolf/Wolfsnake/Dessicated_Wolfsnake</texPath>
+          <drawSize>3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

@@ -56,8 +56,8 @@
         <power>11</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
-      </li>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>      </li>
     </tools>
   
 	<comps>
@@ -112,6 +112,9 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
+	<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
   </ThingDef>
     <PawnKindDef ParentName="AnimalKindBase">
     <defName>GR_Thrumbear</defName>
@@ -133,8 +136,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.5</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbear/Dessicated_Thrumbear</texPath>
+          <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -147,8 +150,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.75</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbear/Dessicated_Thrumbear</texPath>
+          <drawSize>4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -161,8 +164,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>2</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbear/Dessicated_Thrumbear</texPath>
+          <drawSize>4.8</drawSize>
         </dessicatedBodyGraphicData>
         <butcherBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
@@ -229,8 +232,8 @@
         <power>11</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
-      </li>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>      </li>
     </tools>
     <comps>
 	   <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
@@ -287,6 +290,9 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
+	<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
   </ThingDef>
     <PawnKindDef ParentName="AnimalKindBase">
     <defName>GR_Thrumbalope</defName>
@@ -308,8 +314,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.5</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbalope/Dessicated_Thrumbalope</texPath>
+          <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -322,8 +328,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.75</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbalope/Dessicated_Thrumbalope</texPath>
+          <drawSize>4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -336,8 +342,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>2</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbalope/Dessicated_Thrumbalope</texPath>
+          <drawSize>4.8</drawSize>
         </dessicatedBodyGraphicData>
         <butcherBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
@@ -387,8 +393,8 @@
         <power>11</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
-      </li>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>      </li>
     </tools>
    
 	<comps>
@@ -446,6 +452,10 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
+	<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
+
   </ThingDef>
     <PawnKindDef ParentName="AnimalKindBase">
     <defName>GR_Thrumbochicken</defName>
@@ -467,8 +477,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.5</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbochicken/Dessicated_Thrumbochicken</texPath>
+          <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -481,8 +491,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.75</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbochicken/Dessicated_Thrumbochicken</texPath>
+          <drawSize>4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -495,8 +505,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>2</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbochicken/Dessicated_Thrumbochicken</texPath>
+          <drawSize>4.8</drawSize>
         </dessicatedBodyGraphicData>
         <butcherBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
@@ -562,8 +572,8 @@
         <power>11</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
-      </li>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>      </li>
     </tools>
 
 	<comps>
@@ -623,6 +633,9 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
+	<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
   </ThingDef>
     <PawnKindDef ParentName="AnimalKindBase">
     <defName>GR_Thrumffalo</defName>
@@ -644,8 +657,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.5</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumffalo/Dessicated_Thrumffalo</texPath>
+          <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -658,8 +671,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.75</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumffalo/Dessicated_Thrumffalo</texPath>
+          <drawSize>4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -672,8 +685,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>2</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumffalo/Dessicated_Thrumffalo</texPath>
+          <drawSize>4.8</drawSize>
         </dessicatedBodyGraphicData>
         <butcherBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
@@ -740,8 +753,8 @@
         <power>11</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
-      </li>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>      </li>
     </tools>
     <comps>
 		<li Class="DraftingPatcher.CompProperties_Draftable">
@@ -792,6 +805,9 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
+	<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
   </ThingDef>
     <PawnKindDef ParentName="AnimalKindBase">
     <defName>GR_Thrumwolf</defName>
@@ -813,8 +829,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.5</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumwolf/Dessicated_Thrumwolf</texPath>
+          <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -827,8 +843,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.75</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumwolf/Dessicated_Thrumwolf</texPath>
+          <drawSize>3.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -841,8 +857,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>2</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumwolf/Dessicated_Thrumwolf</texPath>
+          <drawSize>4.3</drawSize>
         </dessicatedBodyGraphicData>
         <butcherBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>

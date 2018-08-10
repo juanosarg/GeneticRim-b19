@@ -69,6 +69,9 @@
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
+		<tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 
@@ -89,8 +92,8 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>2.0</drawSize>
+					<texPath>Things/Pawn/Animal/AberrantFleshbeast/Dessicated_Fleshbeast</texPath>
+					<drawSize>3.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
@@ -103,8 +106,8 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>2.0</drawSize>
+					<texPath>Things/Pawn/Animal/AberrantFleshbeast/Dessicated_Fleshbeast</texPath>
+					<drawSize>3.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
@@ -117,8 +120,8 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-					<drawSize>2.0</drawSize>
+					<texPath>Things/Pawn/Animal/AberrantFleshbeast/Dessicated_Fleshbeast</texPath>
+					<drawSize>3.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

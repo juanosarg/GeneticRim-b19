@@ -70,7 +70,7 @@ namespace ExplosionTypes
         public void Explode()
         {
 
-            GenExplosion.DoExplosion(this.parent.Position, this.parent.Map, this.Props.explosionForce, DamageDefOf.Flame, this.parent, -1,null,null, null, null, null, 0f, 1, false, null, 0f, 1);
+            GenExplosion.DoExplosion(this.parent.Position, this.parent.Map, this.Props.explosionForce, DamageDefOf.Flame, this.parent, -1,-1,null,null, null, null, null, 0f, 1, false, null, 0f, 1);
 
             this.parent.Destroy(DestroyMode.Vanish);
         }

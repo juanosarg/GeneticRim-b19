@@ -169,7 +169,7 @@ namespace AnimalRangedVerbsUnlocker
             if (intVec == pawn.Position)
             {
                 TargetScanFlags targetScanFlags = TargetScanFlags.NeedLOSToAll;
-                Thing thing = (Thing)AttackTargetFinder.BestShootTargetFromCurrentPosition(pawn, null, verb.verbProps.range, verb.verbProps.minRange, targetScanFlags);
+                Thing thing = (Thing)AttackTargetFinder.BestShootTargetFromCurrentPosition(pawn, targetScanFlags, null, verb.verbProps.range, verb.verbProps.minRange);
 
 
                 if (thing != null)

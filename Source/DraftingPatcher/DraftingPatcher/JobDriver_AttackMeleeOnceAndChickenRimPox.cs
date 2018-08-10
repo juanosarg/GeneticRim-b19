@@ -17,7 +17,7 @@ namespace DraftingPatcher
             Scribe_Values.Look<int>(ref this.numMeleeAttacksMade, "numMeleeAttacksMade", 0, false);
         }
 
-        public override bool TryMakePreToilReservations()
+        public override bool TryMakePreToilReservations(bool errorOnFailed)
         {
             IAttackTarget attackTarget = this.job.targetA.Thing as IAttackTarget;
             if (attackTarget != null)

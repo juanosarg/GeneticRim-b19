@@ -28,6 +28,8 @@
       <preferability>RawTasty</preferability>
       <tasteThought></tasteThought>
       <foodType>VegetableOrFruit</foodType>
+	        <joyKind>Gluttonous</joyKind>
+
       <joy>0.6</joy>
       <nurseable>true</nurseable>
       <drugCategory>Social</drugCategory>

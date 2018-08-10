@@ -32,9 +32,9 @@ namespace DraftingPatcher
                                     {
                                         if (!pawn.TryGetComp<CompDraftable>().GetCanDoInsectClouds)
                                         {
-                                            pawn.TakeDamage(new DamageInfo(DamageDefOf.Cut, 1, -1f, null, null, null, DamageInfo.SourceCategory.ThingOrUnknown));
+                                            pawn.TakeDamage(new DamageInfo(DamageDefOf.Cut, 1,0f, -1f, null, null, null, DamageInfo.SourceCategory.ThingOrUnknown));
                                         } 
-                                    }   else pawn.TakeDamage(new DamageInfo(DamageDefOf.Cut, 1, -1f, null, null, null, DamageInfo.SourceCategory.ThingOrUnknown));
+                                    }   else pawn.TakeDamage(new DamageInfo(DamageDefOf.Cut, 1,0f, -1f, null, null, null, DamageInfo.SourceCategory.ThingOrUnknown));
 
 
                                 }
