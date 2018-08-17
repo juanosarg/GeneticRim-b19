@@ -423,8 +423,8 @@
 		<ecoSystemWeight>1</ecoSystemWeight>
 		<lifeStages>
 			<li>
-				<label>boomalope calf</label>
-				<labelPlural>boomalope calves</labelPlural>
+				<label>alpha boomalope calf</label>
+				<labelPlural>alpha boomalope calves</labelPlural>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/Alpha/Boomalope/Alphaboomalope</texPath>
 					<drawSize>1.80</drawSize>

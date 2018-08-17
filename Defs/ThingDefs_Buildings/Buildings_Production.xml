@@ -127,7 +127,7 @@
     <thingClass>Building_WorkTable</thingClass>
     <description>Genetic material samples are combined and grown in this laboratory. The vats of growth compound accelerate some of the most difficult experiments.</description>
     <graphicData>
-      <texPath>Things/Building/GenePodAdvanced</texPath>
+      <texPath>Things/Building/GR_NewGenePodFull</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(4,4)</drawSize>
      

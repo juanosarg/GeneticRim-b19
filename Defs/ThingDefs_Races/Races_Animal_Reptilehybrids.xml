@@ -628,7 +628,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Spidersnake</defName>
     <label>spidersnake</label>
-    <description>A reptile / insectoid hybrid. This venomous, armoured snake, can be very dangerous in high enough numbers.\n\nUseful abilities: Regularly produces Spidersnake shed skin, which can be processed in a drug lab into small amounts of neutroamine.</description>
+    <description>A reptile / insectoid hybrid. This venomous, armoured snake, can be very dangerous in high enough numbers. Strangely, they don't seem particularly attracted to hugging any faces.\n\nUseful abilities: Regularly produces Spidersnake shed skin, which can be processed in a drug lab into small amounts of neutroamine.</description>
     <statBases>
       <MoveSpeed>4.8</MoveSpeed>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>

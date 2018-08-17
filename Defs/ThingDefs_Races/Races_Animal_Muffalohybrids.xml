@@ -384,8 +384,8 @@
     <ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>
       <li>
-        <label>muffalo calf</label>
-        <labelPlural>muffalo calves</labelPlural>
+        <label>muffalochicken calf</label>
+        <labelPlural>muffalochicken calves</labelPlural>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Muffalo/Muffalochicken/Muffalochicken</texPath>
           <drawSize>1.5</drawSize>

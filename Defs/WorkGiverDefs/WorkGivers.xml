@@ -170,7 +170,31 @@
 		</requiredCapacities>
     </WorkGiverDef>
 	
-	
+	<WorkGiverDef>
+    <defName>GR_InsertGenesIntoGenePod</defName>
+    <label>inserting genetic material on gene pod</label>
+    <giverClass>NewMachinery.WorkGiver_InsertGenesIntoGenePod</giverClass>
+    <workType>Hauling</workType>
+    <verb>insert genetic material on gene pod</verb>
+    <gerund>inserting genetic material on gene pod</gerund>
+    <priorityInType>20</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  
+  	<WorkGiverDef>
+    <defName>GR_InsertGenesIntoGenePod2</defName>
+    <label>inserting genetic material on gene pod</label>
+    <giverClass>NewMachinery.WorkGiver_InsertGenesIntoGenePod2</giverClass>
+    <workType>Hauling</workType>
+    <verb>insert genetic material on gene pod</verb>
+    <gerund>inserting genetic material on gene pod</gerund>
+    <priorityInType>20</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
 
 
 

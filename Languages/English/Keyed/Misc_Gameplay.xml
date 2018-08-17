@@ -19,6 +19,29 @@
   <ChemfuelProd>Chemfuel production</ChemfuelProd>
   <NeutroglycerinProd>Neutroglycerin production</NeutroglycerinProd>
 
+  
+  <!-- Gene Pods Control -->
+
+  <GR_ExtractGenes>Empty Tank 1</GR_ExtractGenes>
+  <GR_ExtractGenesDesc>Extract Genetic Material from tank #1</GR_ExtractGenesDesc>
+  
+  <GR_ExtractGenes2>Empty Tank 2</GR_ExtractGenes2>
+  <GR_ExtractGenes2Desc>Extract Genetic Material from tank #2</GR_ExtractGenes2Desc>
+  
+  <GR_InsertGenes>Insert on Tank 1</GR_InsertGenes>
+  <GR_InsertGenesDesc>Insert Genetic Material on tank #1</GR_InsertGenesDesc>
+  
+  <GR_InsertGenes2>Insert on Tank 2</GR_InsertGenes2>
+  <GR_InsertGenes2Desc>Insert Genetic Material on tank #2</GR_InsertGenes2Desc>
+  
+  <GR_NoGenes>No Genetic Material available!</GR_NoGenes>
+  
+  <GR_AllGenesNotPresent>Fill both tanks with genetic material to start processing</GR_AllGenesNotPresent>
+  <GR_MixingGenes>Mixing genetic material. Progress:</GR_MixingGenes>
+
+
+
+
 
   <!-- Creature Control Commands -->
   
