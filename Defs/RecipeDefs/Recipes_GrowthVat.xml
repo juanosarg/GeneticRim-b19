@@ -1,11 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	   <!--=============== Hybrid Implants Bases ====================-->
+
+	<RecipeDef>
+		<defName>GR_CraftImplantSteelWireMesh</defName>
+		<label>craft hybrid implant steel wire mesh (tier 1)</label>
+		<description>Craft hybrid implant steel wire mesh.</description>
+		<jobString>Building Implant Mesh</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+				<li>GR_TissueGrowingVat</li>	  
+		</recipeUsers>	
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<GR_ImplantSteelWireMesh>1</GR_ImplantSteelWireMesh>
+		</products>
+	</RecipeDef>
 	
 	
 	<RecipeDef>
 		<defName>GR_CraftImplantPlasteelWireMesh</defName>
-		<label>craft hybrid implant plasteel wire mesh</label>
+		<label>craft hybrid implant plasteel wire mesh (tier 2)</label>
 		<description>Craft hybrid implant plasteel wire mesh.</description>
 		<jobString>Building Implant Mesh</jobString>
 		<effectWorking>Cremate</effectWorking>
@@ -54,10 +91,240 @@
 			<GR_ImplantPlasteelWireMesh>1</GR_ImplantPlasteelWireMesh>
 		</products>
 	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>GR_CraftImplantUraniumWireMesh</defName>
+		<label>craft hybrid implant uranium wire mesh (tier 3)</label>
+		<description>Craft hybrid implant uranium wire mesh.</description>
+		<jobString>Building Implant Mesh</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+				<li>GR_TissueGrowingVat</li>	  
+		</recipeUsers>	
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>Uranium</li>
+				<li>ComponentIndustrial</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
 		
+		<products>
+			<GR_ImplantUraniumWireMesh>1</GR_ImplantUraniumWireMesh>
+		</products>
+	</RecipeDef>
+	
+	<!--=============== Animal Hybrid Implants ====================-->
+
+	<RecipeDef Name="GR_HybridProsthesisBase" Abstract="True">
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>GR_TissueGrowingVat</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_BearLeg</defName>
+		<label>animal Implant: bear leg (tier 1)</label>
+		<description>Craft a prosthetic animal leg strengthened with bear muscles, and ending in a powerful bear claw that adds a powerful melee attack.</description>
+		<jobString>Making bear leg implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_CraftImplantSteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BearGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_CraftImplantSteelWireMesh</li>
+				<li>WoodLog</li>
+				<li>GR_BearGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_BearLeg>1</GR_BearLeg>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_LizardLeg</defName>
+		<label>animal Implant: bionic lizard leg (tier 2)</label>
+		<description>Craft a bionic animal leg reinforced with tough lizard skin.</description>
+		<jobString>Making lizard leg implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_CraftImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ReptilianGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_CraftImplantPlasteelWireMesh</li>
+				<li>Steel</li>
+				<li>GR_ReptilianGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_LizardLeg>1</GR_LizardLeg>
+		</products>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
+
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_ThrumboLeg</defName>
+		<label>animal Implant: bionic thrumbo leg (tier 3)</label>
+		<description>Craft a bionic animal leg reinforced with muscle tissue from a powerful thrumbo.</description>
+		<jobString>Making thrumbo leg implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_CraftImplantUraniumWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ReptilianGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_CraftImplantUraniumWireMesh</li>
+				<li>Plasteel</li>
+				<li>GR_ReptilianGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_ThrumboLeg>1</GR_ThrumboLeg>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>		
+		
+		
+	<!--=============== Human Hybrid Implants ====================-->
+	
 	<RecipeDef>
 		<defName>GR_CraftBearClaws</defName>
-		<label>craft bear claws</label>
+		<label>Human Implant: bear claws</label>
 		<description>Craft bear claws, a hybrid implant containing humanoid and bear DNA that adds a powerful melee attack.</description>
 		<jobString>Crafting Bear Claws</jobString>
 		<effectWorking>Cremate</effectWorking>
@@ -109,7 +376,7 @@
 	
 	<RecipeDef>
 		<defName>GR_CraftOvipositor</defName>
-		<label>craft ovipositor</label>
+		<label>Human Implant: ovipositor</label>
 		<description>Craft an ovipositor, a hybrid implant containing humanoid and chicken DNA that... are you sure this is a good idea? Really? Free range human eggs? Ugh...</description>
 		<jobString>Crafting Ovipositor</jobString>
 		<effectWorking>Cremate</effectWorking>
@@ -161,7 +428,7 @@
 	
 	<RecipeDef>
 		<defName>GR_CraftMuffaloMuscles</defName>
-		<label>craft muffalo muscles</label>
+		<label>Human Implant: muffalo muscles</label>
 		<description>Craft muffalo muscles, a hybrid implant containing humanoid and muffalo DNA that strengthens the subject's muscular system.</description>
 		<jobString>Crafting muffalo muscles</jobString>
 		<effectWorking>Cremate</effectWorking>
@@ -213,7 +480,7 @@
 	
 	<RecipeDef>
 		<defName>GR_CraftBoomalopeNodules</defName>
-		<label>craft boomalope nodules</label>
+		<label>Human Implant: boomalope nodules</label>
 		<description>Craft boomalope nodules, a hybrid implant containing humanoid and boomalope DNA that causes a huge explosion if the subject dies violently.</description>
 		<jobString>Crafting boomalope nodules</jobString>
 		<effectWorking>Cremate</effectWorking>
@@ -265,7 +532,7 @@
 
 	<RecipeDef>
 		<defName>GR_CraftWolfMuscularFibers</defName>
-		<label>craft wolf muscular fibers</label>
+		<label>Human Implant: wolf muscular fibers</label>
 		<description>Craft wolf muscular fibers, which can modify the subject's legs by weaving hybrid human/wolf muscle fibers within the base tissue, giving her a significant strength and speed boost.</description>
 		<jobString>Crafting wolf muscular fibers</jobString>
 		<effectWorking>Cremate</effectWorking>
@@ -316,7 +583,7 @@
 	</RecipeDef>
 	<RecipeDef>
 		<defName>GR_CraftBunnyEars</defName>
-		<label>craft bunny ears</label>
+		<label>Human Implant: bunny ears</label>
 		<description>Craft bunny ears. These huge leporid ears give amazing enhanced hearing. Also, super kawaii!</description>
 		<jobString>Crafting bunny ears</jobString>
 		<effectWorking>Cremate</effectWorking>
@@ -368,7 +635,7 @@
 	
 	<RecipeDef>
 		<defName>GR_CraftInsectoidAntennae</defName>
-		<label>craft insectoid antennae</label>
+		<label>Human Implant: insectoid antennae</label>
 		<description>Craft hybrid humanoid / insectoid feeling appendages that can be implanted in a subject's head, completely modifying the way the subject "sees" and feels the surrounding world. The experience may be slightly overwhelming due to sensorial overload.</description>
 		<jobString>Crafting insectoid antennae</jobString>
 		<effectWorking>Cremate</effectWorking>
@@ -420,7 +687,7 @@
 	
 	<RecipeDef>
 		<defName>GR_CraftHumanThrumboHorn</defName>
-		<label>craft thrumbo horn</label>
+		<label>Human Implant: thrumbo horn</label>
 		<description>A genetically modified thrumbo horn that can be implanted in a subject's forehead. Nasty.</description>
 		<jobString>Crafting thrumbo horn</jobString>
 		<effectWorking>Cremate</effectWorking>
@@ -472,7 +739,7 @@
 	
  	<RecipeDef>
 		<defName>GR_CraftVenomousFangs</defName>
-		<label>craft venomous fangs</label>
+		<label>Human Implant: venomous fangs</label>
 		<description>This hybrid implant substitutes the subject's jaw with a set of venomous fangs. Useful in combat, but not very comfortable.</description>
 		<jobString>Crafting venomous fangs</jobString>
 		<effectWorking>Cremate</effectWorking>

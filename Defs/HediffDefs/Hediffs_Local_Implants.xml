@@ -5,6 +5,8 @@
 
   
   
+  
+  
   <HediffDef Name="GR_HybridPartsBase" Abstract="True" ParentName="AddedBodyPartBase">
     <hediffClass>Hediff_AddedPart</hediffClass>
     <defaultLabelColor>(232, 157, 27)</defaultLabelColor>
@@ -15,6 +17,126 @@
      </addedPartProps>
   </HediffDef>
 
+  
+  <!--=============== Animal Hybrid Implants ====================-->
+
+ 	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_BearLeg</defName>
+		<label>animal Implant: bear leg (tier 1)</label>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>animal Implant: bear leg (tier 1)</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>8</power>
+						<cooldownTime>1.8</cooldownTime>
+						<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>GR_BearLeg</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.8</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.02</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef> 
+	
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_LizardLeg</defName>
+		<label>animal Implant: lizard leg (tier 2)</label>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>animal Implant: lizard leg (tier 2)</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>16</power>
+						<cooldownTime>1.7</cooldownTime>
+						<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>GR_LizardLeg</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.05</ArmorRating_Heat>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="GR_HybridPartsBase">
+		<defName>GR_ThrumboLeg</defName>
+		<label>animal Implant: thrumbo leg (tier 3)</label>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>animal Implant: thrumbo leg (tier 3)</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>20</power>
+						<cooldownTime>1.6</cooldownTime>
+						<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>GR_ThrumboLeg</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.2</partEfficiency>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.05</ArmorRating_Heat>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef> 	
+  
+  <!--=============== Human Hybrid Implants ====================-->
+
+  
   <HediffDef ParentName="GR_HybridPartsBase">
     <defName>GR_BearClaws</defName>
     <label>bear claws</label>

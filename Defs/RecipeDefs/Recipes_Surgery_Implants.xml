@@ -1,5 +1,246 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	<!--=============== Animal Hybrid Implants ====================-->
+
+	
+	<RecipeDef Name="GR_LegImplants" Abstract="True" ParentName="SurgeryFlesh">
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+		 <li>GR_AlphaBear</li>
+		 <li>GR_AlphaWildBoar</li>
+		 <li>GR_AlphaBoomalope</li>
+		 <li>GR_AlphaChicken</li>
+		 <li>GR_AlphaEmu</li>
+		 <li>GR_AlphaMuffalo</li>
+		 <li>GR_AlphaOstrich</li>
+		 <li>GR_AlphaRhinoceros</li>
+		 <li>GR_AlphaWolfTimber</li>
+		 <li>GR_AlphaHare</li>
+		 <li>GR_AlphaIguana</li>
+		 <li>GR_AlphaPig</li>
+		 <li>GR_AlphaRat</li>
+		 <li>GR_AlphaTortoise</li>
+		 <li>GR_Bearalope</li>
+		 <li>GR_Bearchicken</li>
+		 <li>GR_Bearffalo</li>
+		 <li>GR_Bearwolf</li>
+		 <li>GR_Boomabear</li>
+		 <li>GR_Boomachicken</li>
+		 <li>GR_Boomffalo</li>
+		 <li>GR_Boomwolf</li>
+		 <li>GR_Chickenbear</li>
+		 <li>GR_Chickenlope</li>
+		 <li>GR_Chickenffalo</li>
+		 <li>GR_Chickenwolf</li>
+		 <li>GR_Bearscarab</li>
+		 <li>GR_Boombeetle</li>
+		 <li>GR_Chickenspider</li>
+		 <li>GR_Thrumbospider</li>
+		 <li>GR_Wolfscarab</li>
+		 <li>GR_Muffalobear</li>
+		 <li>GR_Muffalope</li>
+		 <li>GR_Muffalochicken</li>
+		 <li>GR_Muffalowolf</li>
+		 <li>GR_Bearodile</li>
+		 <li>GR_Chickenlizard</li>
+		 <li>GR_Muffalokomodo</li>
+		 <li>GR_Thrumbolizard</li>
+		 <li>GR_Wolfsnake</li>
+		 <li>GR_Bearmole</li>
+		 <li>GR_Boomsquirrel</li>
+		 <li>GR_Chickenrabbit</li>
+		 <li>GR_Muffalorat</li>
+		 <li>GR_Thrumborat</li>
+		 <li>GR_Wolfbeaver</li>
+         <li>GR_Thrumbear</li>
+		 <li>GR_Thrumbalope</li>
+		 <li>GR_Thrumbochicken</li>
+		 <li>GR_Thrumffalo</li>
+		 <li>GR_Thrumwolf</li>
+		 <li>GR_Wolfbear</li>
+		 <li>GR_Wolfalope</li>
+		 <li>GR_Wolfchicken</li>
+		 <li>GR_Wolffalo</li>
+        </recipeUsers>
+		<appliedOnFixedBodyParts>
+			<li>Leg</li> 
+			<li>InsectLeg</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+	<RecipeDef Name="GR_ArmImplants" Abstract="True" ParentName="SurgeryFlesh">
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+		 <li>GR_AlphaBear</li>
+		 <li>GR_AlphaWildBoar</li>
+		 <li>GR_AlphaBoomalope</li>
+		 <li>GR_AlphaChicken</li>
+		 <li>GR_AlphaEmu</li>
+		 <li>GR_AlphaMuffalo</li>
+		 <li>GR_AlphaOstrich</li>
+		 <li>GR_AlphaRhinoceros</li>
+		 <li>GR_AlphaWolfTimber</li>
+		 <li>GR_AlphaHare</li>
+		 <li>GR_AlphaIguana</li>
+		 <li>GR_AlphaPig</li>
+		 <li>GR_AlphaRat</li>
+		 <li>GR_AlphaTortoise</li>
+		 <li>GR_Bearalope</li>
+		 <li>GR_Bearchicken</li>
+		 <li>GR_Bearffalo</li>
+		 <li>GR_Bearwolf</li>
+		 <li>GR_Boomabear</li>
+		 <li>GR_Boomachicken</li>
+		 <li>GR_Boomffalo</li>
+		 <li>GR_Boomwolf</li>
+		 <li>GR_Chickenbear</li>
+		 <li>GR_Chickenlope</li>
+		 <li>GR_Chickenffalo</li>
+		 <li>GR_Chickenwolf</li>
+		 <li>GR_Bearscarab</li>
+		 <li>GR_Boombeetle</li>
+		 <li>GR_Chickenspider</li>
+		 <li>GR_Thrumbospider</li>
+		 <li>GR_Wolfscarab</li>
+		 <li>GR_Muffalobear</li>
+		 <li>GR_Muffalope</li>
+		 <li>GR_Muffalochicken</li>
+		 <li>GR_Muffalowolf</li>
+		 <li>GR_Bearodile</li>
+		 <li>GR_Chickenlizard</li>
+		 <li>GR_Muffalokomodo</li>
+		 <li>GR_Thrumbolizard</li>
+		 <li>GR_Wolfsnake</li>
+		 <li>GR_Bearmole</li>
+		 <li>GR_Boomsquirrel</li>
+		 <li>GR_Chickenrabbit</li>
+		 <li>GR_Muffalorat</li>
+		 <li>GR_Thrumborat</li>
+		 <li>GR_Wolfbeaver</li>
+         <li>GR_Thrumbear</li>
+		 <li>GR_Thrumbalope</li>
+		 <li>GR_Thrumbochicken</li>
+		 <li>GR_Thrumffalo</li>
+		 <li>GR_Thrumwolf</li>
+		 <li>GR_Wolfbear</li>
+		 <li>GR_Wolfalope</li>
+		 <li>GR_Wolfchicken</li>
+		 <li>GR_Wolffalo</li>
+        </recipeUsers>
+		<appliedOnFixedBodyParts>
+			<li>Leg</li> 
+			<li>InsectLeg</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_LegImplants">
+		<defName>GR_InstallBearLeg</defName>
+		<label>install animal Implant: bear leg (tier 1)</label>
+		<description>Installs bear leg.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing bear leg.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BearLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>GR_BearLeg</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_BearLeg</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_LegImplants">
+		<defName>GR_InstallLizardLeg</defName>
+		<label>install animal Implant: lizard leg (tier 2)</label>
+		<description>Installs lizard leg.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing lizard leg.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_LizardLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>GR_LizardLeg</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_LizardLeg</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_LegImplants">
+		<defName>GR_InstallThrumboLeg</defName>
+		<label>install animal Implant: thrumbo leg (tier 3)</label>
+		<description>Installs thrumbo leg.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing thrumbo leg.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ThrumboLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>GR_ThrumboLeg</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_ThrumboLeg</addsHediff>
+	</RecipeDef>	
+	<!--=============== Human Hybrid Implants ====================-->
 
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallBearClaws</defName>
