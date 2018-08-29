@@ -1,7 +1,7 @@
 <ModMetaData>
 	<name>GeneticRim Release Version</name>
 	<author>Sarg</author>
-	<targetVersion>0.19.1996</targetVersion>
+	<targetVersion>0.19.2009</targetVersion>
 	<description>Extract DNA from animals and hybridize them to create new, exotic species!
 
 &lt;size=24&gt;Features&lt;/size&gt;
@@ -16,7 +16,6 @@
 
 &lt;size=24&gt;Issues&lt;/size&gt;
 Some of the biggest animals might flicker. This is to be expected, since a few of them are bigger than Thrumbos!
-The Boombeetle is a ranged creature, and the code for it is beta, so expect erratic behaviour (specially after b18 update...)
 The animal control research uses Harmony, so expect all kinds of bugs because I touched things that I maybe shouldn't have. Please report any bugs!
 
 &lt;size=24&gt;Notes&lt;/size&gt;
@@ -45,7 +44,8 @@ Uses Nightinggale's Modcheck mod (no need to download)
 Uses Harmony (no need to download)
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
-v3.0: Initial stages of updating to RimWorld Release Version (18/06/18)
+v3.04: B19 Version (29/08/18)
+v3.0: Initial stages of updating to RimWorld B19 Version (18/06/18)
 v2.405: Bugfixes. Changelog can be seen on GitHub (03/03/18)
 v2.404: Adds compatibility with Dinosauria Patch. Incubators now send a message when they hatch. Animal control now has a mote effect and messages to adequately convey when the abilities are recharging. Recombinating serums now take 5 random serums instead of 10 random corpses (04/01/18)
 v2.4: Animal Control research: 9 new abilities for your animals. Also, you can now build empty incubators in the alpha serum extraction table. Also fixed the graphic in the Snakewolf. Finally, removed many mod things from traders (06/12/17)
