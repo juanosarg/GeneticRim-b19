@@ -8,7 +8,7 @@
 
 - Hybridization: Extract genes from Bears, Chickens, Boomalopes, Muffalos, Wolves, Rodents, Reptiles, Insectoids and Thrumbos, and create hybrids of these species. Some combinations can go both ways, so for example a bearalope is different from a boombear, and you will get one at random. A total of 49 new creatures for you to play with. Some very useful, others... less so.
 
-- Hybrid implants: By extracting humanoid genes, you can mix them with animal genes and create several hybrid implants to improve your colonists.
+- Hybrid implants: The Growth Vat can be used to create either animal or human implants. Using different animal genes, you can create implants such as Thrumbo Legs, or Chitinous Hearts, and turn your scientific aberrations into even more bizarre creatures. By using humanoid genes, you can mix them with animal genes and create several hybrid implants to improve your colonists.
 
 - Alpha Creatures: With the Animal Enrichment research, you can turn regular animals into Alphas, more evolved versions of the base creature. A total of 9 new creatures for you to play with.
 
@@ -38,12 +38,12 @@ How do I progress? Here is a mini-guide:
 
 &lt;size=24&gt;Compatibility&lt;/size&gt;
 Incompatible with Pawns Are Capable
-Compatible with A Dog Said
 Compatible with Animal Collab Project
 Uses Nightinggale's Modcheck mod (no need to download)
 Uses Harmony (no need to download)
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v3.1: LOTS of hybrid implants to modify your creatures added! You can now create implants that only work on hybrids and alphas, giving you a wide selection to improve your creatures. Also, there is no longer a need to have third party mods (30/08/18)
 v3.04: B19 Version (29/08/18)
 v3.0: Initial stages of updating to RimWorld B19 Version (18/06/18)
 v2.405: Bugfixes. Changelog can be seen on GitHub (03/03/18)

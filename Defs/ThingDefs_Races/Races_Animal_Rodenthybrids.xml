@@ -82,7 +82,7 @@
  
     <race>
 	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
-      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <body>QuadrupedAnimalWithPaws</body>
       <predator>true</predator>
       
       <baseBodySize>2.5</baseBodySize>

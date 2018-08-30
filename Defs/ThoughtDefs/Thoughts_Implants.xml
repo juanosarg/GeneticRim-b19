@@ -50,5 +50,21 @@
      
     </stages>
   </ThoughtDef>
+  
+     <ThoughtDef>
+    <defName>GR_DamnMammaries</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>GR_MuffaloMammaries</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      
+      <li>
+        <label>your colonist is a fat cow</label>
+        <description>This is really deeply humilliating!</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+     
+    </stages>
+  </ThoughtDef>
 
 </Defs>
