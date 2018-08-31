@@ -91,5 +91,12 @@ namespace DraftingPatcher
                 return this.Props.dinostamina;
             }
         }
+        public bool GetHorror
+        {
+            get
+            {
+                return this.Props.horror;
+            }
+        }
     }
 }

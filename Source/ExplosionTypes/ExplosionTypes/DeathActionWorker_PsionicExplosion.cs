@@ -29,7 +29,7 @@ namespace ExplosionTypes
 
            
 
-            GenExplosion.DoExplosion(corpse.Position, corpse.Map, radius, Named("GR_PsionicExplosion"), corpse.InnerPawn, -1,-1,SoundDef.Named("Explosion_Bomb"), null, null, null, ThingDef.Named("Poison_Gas"), 1f, 1, false, null, 0f, 1);
+            GenExplosion.DoExplosion(corpse.Position, corpse.Map, radius, Named("GR_PsionicExplosion"), corpse.InnerPawn, 10,-1,SoundDef.Named("Explosion_Bomb"), null, null, null, ThingDef.Named("GR_Poison_Gas"), 1f, 1, false, null, 0f, 1);
         }
 
         public static DamageDef Named(string defName)

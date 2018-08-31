@@ -67,10 +67,13 @@
   <GR_StartBurrowingDesc>Sends the creature underground into burrowing mode, making it very resistant to damage for a while</GR_StartBurrowingDesc>
   <GR_StartStamina>Increase Stamina</GR_StartStamina>
   <GR_StartStaminaDesc>Makes the creature more resistant to damage for a while</GR_StartStaminaDesc>
+  <GR_StartInvokingInsanity>Invoke Insanity</GR_StartInvokingInsanity>
+  <GR_StartInvokingInsanityDesc>Invokes the insanity of That Which Man Is Not Meant to Know</GR_StartInvokingInsanityDesc>
   
   
   <GR_AbilityRecharging>Ability is rechaging. Check animal's health tab</GR_AbilityRecharging>
   <GR_PoisonCloudRange>Poison cloud has a maximum range of 10. Get closer to the target!</GR_PoisonCloudRange>
+  <GR_InvokingInsanityRange>Invoking insanity has a maximum range of 10. Get closer to the target!</GR_InvokingInsanityRange>
 
   
   

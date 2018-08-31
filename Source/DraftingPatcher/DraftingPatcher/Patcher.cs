@@ -82,6 +82,8 @@ namespace DraftingPatcher
             bool flagCanDoPoisonousCloud = false;
             bool flagCanBurrow = false;
             bool flagCanStamina = false;
+            bool flagCanHorrorize = false;
+
 
 
             bool flagIsMindControlBuildingPresent = false;
@@ -106,6 +108,8 @@ namespace DraftingPatcher
                         flagCanDoPoisonousCloud = pawn.TryGetComp<CompDraftable>().GetCanDoPoisonousCloud;
                         flagCanBurrow = pawn.TryGetComp<CompDraftable>().GetCanBurrow;
                         flagCanStamina = pawn.TryGetComp<CompDraftable>().HasDinoStamina;
+                        flagCanHorrorize = pawn.TryGetComp<CompDraftable>().GetHorror;
+
                         flagIsMindControlBuildingPresent = true;
                     }
                 }
@@ -382,6 +386,55 @@ namespace DraftingPatcher
                 GR_Gizmo_Stamina.defaultDesc = "GR_StartStaminaDesc".Translate();
                 GR_Gizmo_Stamina.icon = ContentFinder<Texture2D>.Get("ui/commands/GR_Stamina", true);
                 gizmos.Insert(1, GR_Gizmo_Stamina);
+            }
+
+            /*This gizmo makes the animal cast a horror ability
+          */
+            if ((pawn.drafter != null) && flagCanHorrorize && flagIsCreatureMine && flagIsMindControlBuildingPresent)
+            {
+                Command_Target GR_Gizmo_Horror = new Command_Target();
+                GR_Gizmo_Horror.defaultLabel = "GR_StartInvokingInsanity".Translate();
+                GR_Gizmo_Horror.defaultDesc = "GR_StartInvokingInsanityDesc".Translate();
+                GR_Gizmo_Horror.targetingParams = TargetingParameters.ForAttackAny();
+                GR_Gizmo_Horror.icon = ContentFinder<Texture2D>.Get("Item/Weapon/MiGoCasterWeapon/MiGoCasterWeaponA", true);
+
+                GR_Gizmo_Horror.action = delegate (Thing target)
+                {
+                    if (!pawn.health.hediffSet.HasHediff(HediffDef.Named("GR_CausedHorror")))
+                    {
+                        Pawn pawn2 = target as Pawn;
+                        if (pawn2 != null)
+                        {
+
+                            if (pawn.Position.InHorDistOf(pawn2.Position, 10))
+                            {
+                                List<IntVec3> list = GenAdj.AdjacentCells8WayRandomized();
+                                for (int i = 0; i < 8; i++)
+                                {
+                                    IntVec3 c2 = pawn2.Position + list[i];
+                                    if (c2.InBounds(pawn2.Map))
+                                    {
+                                        Thing thing = ThingMaker.MakeThing(ThingDef.Named("GR_Insanity_Cloud"), null);
+
+                                        GenSpawn.Spawn(thing, c2, pawn2.Map);
+                                    }
+                                }
+                                pawn.health.AddHediff(HediffDef.Named("GR_CausedHorror"));
+                            }
+                            else
+                            {
+                                Messages.Message("GR_InvokingInsanityRange".Translate(), pawn, MessageTypeDefOf.NeutralEvent);
+
+                            }
+
+                        }
+                    }
+                    else
+                    {
+                        Messages.Message("GR_AbilityRecharging".Translate(), pawn, MessageTypeDefOf.NeutralEvent);
+                    }
+                };
+                gizmos.Insert(1, GR_Gizmo_Horror);
             }
 
 

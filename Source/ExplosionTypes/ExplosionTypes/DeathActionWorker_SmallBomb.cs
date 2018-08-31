@@ -23,7 +23,7 @@ namespace ExplosionTypes
             {
                 radius = 1.9f;
             }
-            GenExplosion.DoExplosion(corpse.Position, corpse.Map, radius, DamageDefOf.Bomb, corpse.InnerPawn, -1,-1,null, null, null, null, ThingDef.Named("FilthBlood"), .7f, 1, false, null, 0f, 1);
+            GenExplosion.DoExplosion(corpse.Position, corpse.Map, radius, DamageDefOf.Bomb, corpse.InnerPawn, -1,-1,null, null, null, null, ThingDef.Named("Filth_Blood"), .7f, 1, false, null, 0f, 1);
         }
 
 

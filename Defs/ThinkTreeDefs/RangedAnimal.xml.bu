@@ -2,12 +2,18 @@
 <Defs>
 
 	<ThinkTreeDef>
-		<defName>RangedAnimal</defName>
+		<defName>GR_RangedAnimal</defName>
 		<thinkRoot Class="ThinkNode_Priority">
       <subNodes>
         <!-- Keep lying down if we have to -->
 				<li Class="ThinkNode_ConditionalMustKeepLyingDown">
 					<subNodes>
+            <!-- Do a queued job if possible -->
+            <li Class="ThinkNode_QueuedJob">
+              <inBedOnly>true</inBedOnly>
+            </li>
+
+            <!-- Keep lying down -->
             <li Class="JobGiver_KeepLyingDown" />
           </subNodes>
         </li>
@@ -24,6 +30,9 @@
         
         <!-- React to close melee threat -->
 				<li Class="AnimalRangedVerbsUnlocker.JobGiver_ReactToCloseMeleeThreatWithRanged" />
+
+        <!-- Do a queued job -->
+        <li Class="ThinkNode_QueuedJob" />
 
         <!-- Wild animals dig out if no path to map edge and starving -->
         <li Class="ThinkNode_ConditionalHasFaction">
@@ -102,7 +111,7 @@
         <li Class="JobGiver_LayEgg" />
 
         <!-- Tame animal -->
-        <li Class="ThinkNode_ConditionalColonyFaction">
+        <li Class="ThinkNode_ConditionalOfPlayerFaction">
           <subNodes>
             <li Class="ThinkNode_Tagger">
               <tagToGive>TrainedAnimalBehavior</tagToGive>
@@ -214,10 +223,7 @@
               </subNodes>
             </li>
 
-            <!-- Join auto joinable caravan -->
-            <li Class="ThinkNode_Subtree">
-              <treeDef>JoinAutoJoinableCaravan</treeDef>
-            </li>
+           
           </subNodes>
         </li>
 
@@ -227,7 +233,7 @@
         </li>
         
         <!-- Tame animal: wander colony -->
-        <li Class="ThinkNode_ConditionalColonyFaction">
+        <li Class="ThinkNode_ConditionalOfPlayerFaction">
           <subNodes>
             <li Class="ThinkNode_Tagger">
               <tagToGive>Idle</tagToGive>
@@ -245,7 +251,7 @@
         </li>
         
         <!-- Of neutral faction: rest and then exit the map -->
-        <li Class="ThinkNode_ConditionalNeutralFaction">
+        <li Class="ThinkNode_ConditionalNonPlayerNonHostileFaction">
           <subNodes>
             <li Class="ThinkNode_Tagger">
               <tagToGive>RestingForMedicalReasons</tagToGive>
@@ -296,199 +302,6 @@
 		</thinkRoot>
 	</ThinkTreeDef>
 
-	<ThinkTreeDef>
 	
-		<defName>RangedAnimalConstant</defName>
-		<thinkRoot Class="ThinkNode_Priority">
-			<subNodes>
-        <li Class="ThinkNode_ConditionalCanDoConstantThinkTreeJobNow">
-          <subNodes>
-            <!-- Lord directives -->
-            <li Class="ThinkNode_Subtree">
-              <treeDef>LordDutyConstant</treeDef>
-            </li>
-          </subNodes>
-        </li>
-      </subNodes>
-		</thinkRoot>
-	</ThinkTreeDef>
 
-	 <ThinkTreeDef>
-    <defName>MentalStateNonCritical</defName>
-    <thinkRoot Class="ThinkNode_Tagger">
-      <tagToGive>InMentalState</tagToGive>
-      <subNodes>
-        <!-- Various wanders  -->
-        <li Class="ThinkNode_ConditionalMentalState">
-          <state>WanderPsychotic</state>
-          <subNodes>
-            <li Class="JobGiver_WanderAnywhere">
-              <maxDanger>Deadly</maxDanger>
-            </li>
-          </subNodes>
-        </li>
-        <li Class="ThinkNode_ConditionalMentalState">
-          <state>WanderSad</state>
-          <subNodes>
-            <li Class="JobGiver_WanderColony">
-              <maxDanger>Deadly</maxDanger>
-            </li>
-          </subNodes>
-        </li>
-        <li Class="ThinkNode_ConditionalMentalState">
-          <state>WanderConfused</state>
-          <subNodes>
-            <li Class="JobGiver_WanderAnywhere">
-              <maxDanger>Deadly</maxDanger>
-            </li>
-          </subNodes>
-        </li>
-        
-        <!-- Hide in room -->
-        <li Class="ThinkNode_ConditionalMentalState">
-          <state>WanderOwnRoom</state>
-          <subNodes>
-            <li Class="JobGiver_WanderOwnRoom">
-              <maxDanger>Deadly</maxDanger>
-            </li>
-          </subNodes>
-        </li>
-        
-        <!-- Binging on drug -->
-        <li Class="ThinkNode_ConditionalMentalStates">
-          <states>
-            <li>BingingDrugMajor</li>
-            <li>BingingDrugExtreme</li>
-          </states>
-          <subNodes>
-						<!-- We can't put GetRest in the priority sorter because then the player can just assign the pawn to sleep,
-								and they'll go to sleep immediately and end the binging state. So, instead, we have the pawn sleep if and only if
-								exhausted-->
-						<li Class="ThinkNode_ConditionalNeedPercentageAbove">
-							<need>Rest</need>
-							<threshold>0.05</threshold>
-							<invert>true</invert>
-							<subNodes>
-								<li Class="JobGiver_GetRest"/>
-							</subNodes>
-						</li>
-						<li Class="ThinkNode_PrioritySorter">
-							<minPriority>0.5</minPriority>
-							<subNodes>
-								<li Class="JobGiver_GetFood"/>
-								<li Class="JobGiver_SatisfyChemicalNeed"/>
-                <li Class="ThinkNode_Priority_GetJoy">
-                  <subNodes>
-                    <li Class="JobGiver_GetJoy"/>
-                  </subNodes>
-                </li>
-              </subNodes>
-            </li>
-            <li Class="JobGiver_BingeDrug"/>
-            <li Class="JobGiver_WanderColony" />
-          </subNodes>
-        </li>
-
-        <!-- Binging on food -->
-        <li Class="ThinkNode_ConditionalMentalState">
-          <state>BingingFood</state>
-          <subNodes>
-            <li Class="ThinkNode_PrioritySorter">
-              <minPriority>0.5</minPriority>
-              <subNodes>
-                <li Class="JobGiver_GetFood"/>
-                <li Class="JobGiver_GetRest"/>
-                <li Class="JobGiver_SatisfyChemicalNeed"/>
-                <li Class="ThinkNode_Priority_GetJoy">
-                  <subNodes>
-                    <li Class="JobGiver_GetJoy"/>
-                  </subNodes>
-                </li>
-              </subNodes>
-            </li>
-            <li Class="JobGiver_BingeFood"/>
-            <li Class="JobGiver_WanderColony" />
-          </subNodes>
-        </li>
-        
-        <!-- Manhunter -->
-        <!-- Hack: these have to be identical -->
-        <li Class="ThinkNode_ConditionalMentalState">
-          <state>Manhunter</state>
-          <subNodes>
-            <li Class="ThinkNode_Priority">
-              <subNodes>
-                <li Class="ThinkNode_PrioritySorter">
-                  <subNodes>
-                    <li Class="JobGiver_GetFood">
-                      <minCategory>Starving</minCategory>
-                    </li>
-                  </subNodes>
-                </li>
-                <li Class="AnimalRangedVerbsUnlocker.JobGiver_ManhunterRanged" />
-                <li Class="JobGiver_WanderAnywhere">
-                  <maxDanger>Deadly</maxDanger>
-                </li>
-              </subNodes>
-            </li>
-          </subNodes>
-        </li>
-        <li Class="ThinkNode_ConditionalMentalState">
-          <state>ManhunterPermanent</state>
-          <subNodes>
-            <li Class="ThinkNode_Priority">
-              <subNodes>
-                <li Class="ThinkNode_PrioritySorter">
-                  <subNodes>
-                    <li Class="JobGiver_GetFood">
-                      <minCategory>Starving</minCategory>
-                    </li>
-                  </subNodes>
-                </li>
-                <li Class="AnimalRangedVerbsUnlocker.JobGiver_ManhunterRanged" />
-                <li Class="JobGiver_WanderAnywhere">
-                  <maxDanger>Deadly</maxDanger>
-                </li>
-              </subNodes>
-            </li>
-          </subNodes>
-        </li>
-        
-        <!-- Panic flee -->
-        <li Class="ThinkNode_ConditionalMentalState">
-          <state>PanicFlee</state>
-          <subNodes>
-            <li Class="JobGiver_ExitMapPanic" />
-            <li Class="JobGiver_WanderAnywhere">
-              <!-- Can happen if there is no way to exit the map -->
-              <maxDanger>Some</maxDanger>
-              <locomotionUrgency>Jog</locomotionUrgency>
-            </li>
-          </subNodes>
-        </li>
-
-        <!-- Give up and leave -->
-        <li Class="ThinkNode_ConditionalMentalState">
-          <state>GiveUpExit</state>
-          <subNodes>
-            <li Class="JobGiver_ExitMapRandom">
-              <defaultLocomotion>Walk</defaultLocomotion>
-            </li>
-            <li Class="JobGiver_WanderAnywhere">
-              <maxDanger>Deadly</maxDanger>
-            </li>
-          </subNodes>
-        </li>
-          
-        <!-- Fire starting spree -->
-        <li Class="ThinkNode_ConditionalMentalState">
-          <state>FireStartingSpree</state>
-          <subNodes>
-            <li Class="JobGiver_FireStartingSpree"></li>
-          </subNodes>
-        </li>
-      </subNodes>
-    </thinkRoot>
-  </ThinkTreeDef>
- 
 </Defs>

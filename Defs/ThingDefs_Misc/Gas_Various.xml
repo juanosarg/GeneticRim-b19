@@ -41,7 +41,7 @@
     </gas>
   </ThingDef>
   
-    <ThingDef ParentName="BaseGas">
+   <ThingDef ParentName="BaseGas">
     <defName>GR_Poison_Cloud</defName>
     <label>poison cloud</label>
 	<thingClass>DraftingPatcher.Gas_PoisonCloud</thingClass>
