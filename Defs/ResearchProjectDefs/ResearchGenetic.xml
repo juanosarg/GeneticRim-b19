@@ -6,7 +6,7 @@
     <label>genetic engineering</label>
     <tab>GR_GeneticReseach</tab>
     <techLevel>Industrial</techLevel>
-    <description>Research the basics of genetic engineering.</description>
+    <description>Research the basics of genetic engineering. With this research you can begin experimenting on the most basic creatures (tier 1), and breed hybrids to conquer the world. </description>
     <baseCost>1200</baseCost>
     <prerequisites>
       <li>Electricity</li>
@@ -21,7 +21,7 @@
     <label>insectoid genome</label>
     <tab>GR_GeneticReseach</tab>
     <techLevel>Industrial</techLevel>
-    <description>Research ways to extract genetic material from alien insectoid species.</description>
+    <description>Research ways to extract genetic material from alien insectoid species. This opens up experimenting with insectoid hybrids (tier 2).</description>
     <baseCost>1500</baseCost>
     <prerequisites>
       <li>GR_GeneticEngineering</li>
@@ -36,7 +36,7 @@
     <label>reptilian genome</label>
     <tab>GR_GeneticReseach</tab>
     <techLevel>Industrial</techLevel>
-    <description>Research ways to extract genetic material from reptiles.</description>
+    <description>Research ways to extract genetic material from reptiles. This opens up experimenting with reptilian hybrids (tier 2).</description>
     <baseCost>1500</baseCost>
     <prerequisites>
       <li>GR_GeneticEngineering</li>
@@ -51,7 +51,7 @@
     <label>humanoid genetic engineering</label>
     <tab>GR_GeneticReseach</tab>
     <techLevel>Industrial</techLevel>
-    <description>Allows humanoid gene extraction, and allows mixing of human and animal DNA to create animal implants.</description>
+    <description>Allows humanoid gene extraction, and allows mixing of human and animal DNA to create animal implants. Also opens up experimenting with hybrid implants, used to improve your hybrid creatures with incredibly weird combinations.</description>
     <baseCost>1250</baseCost>
     <prerequisites>
         <li>GR_GeneticEngineering</li>
@@ -66,7 +66,7 @@
     <label>advanced genetic engineering</label>
     <tab>GR_GeneticReseach</tab>
     <techLevel>Spacer</techLevel>
-    <description>Unlocks the Advanced Gene Pod, and allows mixing of advanced creature genes.</description>
+    <description>Unlocks the Advanced Gene Pod, and allows mixing of advanced creature genes, thrumbos and mechanoids (tier 3).</description>
     <baseCost>2500</baseCost>
     <prerequisites>
         <li>GR_GeneticEngineering</li>
@@ -84,7 +84,7 @@
     <label>animal enrichment</label>
     <tab>GR_GeneticReseach</tab>
     <techLevel>Industrial</techLevel>
-    <description>Research ways to improve existing animals and create better adapted versions of them.</description>
+    <description>Research ways to improve existing animals and create better adapted versions of them, known as Alphas.</description>
     <baseCost>1500</baseCost>
     <prerequisites>
       <li>Electricity</li>
@@ -114,7 +114,7 @@
     <label>animal control</label>
     <tab>GR_GeneticReseach</tab>
     <techLevel>Industrial</techLevel>
-    <description>Mind control technology that allows you to directly interact with your creatures.</description>
+    <description>Mind control technology that allows you to directly interact with your creatures, unlocking player-controllable special abilities for each hybrid family.</description>
     <baseCost>1000</baseCost>
     <prerequisites>
       <li>GR_AnimalEnrichment</li>

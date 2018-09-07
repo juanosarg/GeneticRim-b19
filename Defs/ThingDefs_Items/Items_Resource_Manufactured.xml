@@ -140,7 +140,18 @@
     </graphicData>
     
   </ThingDef>
-  
+  <ThingDef ParentName="GR_GeneticsBase">
+    <defName>GR_MechanoidGenetic</defName>
+    <label>mechanoid active components</label>
+    <description>A vial of active mechanites from a mechanoid's corpse.</description>
+    <statBases>
+       <MarketValue>100</MarketValue>
+    </statBases>
+    <graphicData>
+      <color>(125,125,125)</color>
+    </graphicData>
+    
+  </ThingDef>
    <!--=============== Alpha Serums ====================-->
 
   <ThingDef Name="GR_SerumsBase" ParentName="ResourceBase" Abstract="True">
