@@ -18,6 +18,8 @@
   <Cryofuel>Cryofuel production</Cryofuel>
   <ChemfuelProd>Chemfuel production</ChemfuelProd>
   <NeutroglycerinProd>Neutroglycerin production</NeutroglycerinProd>
+  <ComponentIndustrialDesc>Industrial Component production</ComponentIndustrialDesc>
+
 
   
   <!-- Gene Pods Control -->

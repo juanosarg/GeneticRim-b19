@@ -757,4 +757,116 @@
     </comps>
 </ThingDef>
 
+<!-- Items handling Mechanoid hybrids -->
+
+ 
+<ThingDef ParentName="GR_IncubatorsBaseTier2">
+    <defName>GR_MechabearIncubator</defName>
+    <label>mechanoid / bear incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
+	<comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_Mechabear</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+  
+<ThingDef ParentName="GR_IncubatorsBaseTier2">
+    <defName>GR_MechamuffaloIncubator</defName>
+    <label>mechanoid / muffalo incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_Mechamuffalo</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseTier2">
+    <defName>GR_MechalopeIncubator</defName>
+    <label>mechanoid / boomalope incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
+	<comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_Mechalope</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+  
+<ThingDef ParentName="GR_IncubatorsBaseTier2">
+    <defName>GR_MechachickenIncubator</defName>
+    <label>mechanoid / chicken incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_Mechachicken</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseTier2">
+    <defName>GR_MechawolfIncubator</defName>
+    <label>mechanoid / wolf incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_Mechawolf</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseTier2">
+    <defName>GR_MecharatIncubator</defName>
+    <label>mechanoid / rodent incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_Mecharat</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseTier2">
+    <defName>GR_MechaspiderIncubator</defName>
+    <label>mechanoid / insectoid incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_Mechaspider</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseTier2">
+    <defName>GR_MechaturtleIncubator</defName>
+    <label>mechanoid / reptilian incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_Mechaturtle</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseTier2">
+    <defName>GR_MechathrumboIncubator</defName>
+    <label>mechanoid / thrumbo incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_Mechathrumbo</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+
 </Defs>

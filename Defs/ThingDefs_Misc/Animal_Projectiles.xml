@@ -18,6 +18,19 @@
     </projectile>
 </ThingDef>
 
+  <ThingDef Name="GR_BaseAnimalBullet" Abstract="True">
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <thingClass>Bullet</thingClass>
+    <label>bullet</label>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+  </ThingDef>
+
 <ThingDef ParentName="GR_BaseAnimalProjectile">
 		<defName>GR_Proj_ThrownSac</defName>
 		<label>thrown sac</label>
@@ -33,5 +46,58 @@
 			<explosionDelay>100</explosionDelay>
 		</projectile>
 </ThingDef>
+
+<ThingDef ParentName="GR_BaseAnimalProjectile">
+		<defName>GR_PlasmaBurst</defName>
+		<label>plasma burst</label>
+		<thingClass>Projectile_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/GR_PlasmaBurst</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<explosionRadius >4</explosionRadius >
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>30</damageAmountBase>
+			<explosionDelay>1</explosionDelay>
+		</projectile>
+</ThingDef>
+
+  <ThingDef ParentName="GR_BaseAnimalProjectile">
+    <defName>GR_IncendiaryMote</defName>
+    <label>incendiary bolt</label>
+    <graphicData>
+      <texPath>Things/Special/Fire/FireA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <speed>40</speed>
+      <damageDef>Flame</damageDef>
+	  <damageAmountBase>1.5</damageAmountBase>
+      <explosionRadius>1.1</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+	  <soundExplode>undefined</soundExplode>
+
+    </projectile>
+  </ThingDef>
+  
+    <ThingDef ParentName="GR_BaseAnimalBullet">
+    <defName>GR_SniperFlechette</defName>
+    <label>sniper flechette</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
 	
 </Defs>

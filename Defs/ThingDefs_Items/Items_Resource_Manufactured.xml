@@ -148,7 +148,7 @@
        <MarketValue>100</MarketValue>
     </statBases>
     <graphicData>
-      <color>(125,125,125)</color>
+       <texPath>Things/Item/GR_mechanites</texPath>
     </graphicData>
     
   </ThingDef>
