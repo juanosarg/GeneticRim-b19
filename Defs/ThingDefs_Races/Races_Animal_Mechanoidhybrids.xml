@@ -383,6 +383,133 @@
       </li>
 		</lifeStages>
 	</PawnKindDef>
+	
+		<!-- Mechanoid - Insectoid -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Mechaspider</defName>
+		<label>mechaspider</label>
+		<description>This cybernetic organism has traits from both its insectoid and mechanoid origins. The mechaspider is armed with a powerful twin-coiled laser machine gun, perfect to obliterate enemies in a rain of laser fire. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components.\n\nUseful abilities: As long as a tamer is near to direct it, the mechaspider can rain death upon enemies. Like all mechanoid hybrids it produces industrial components every couple days.</description>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<statBases>
+			<MoveSpeed>6</MoveSpeed>
+			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
+			<ComfyTemperatureMax>250</ComfyTemperatureMax>
+			<PsychicSensitivity>0</PsychicSensitivity>
+			<ToxicSensitivity>0</ToxicSensitivity>
+			<Flammability>0</Flammability>
+			<MarketValue>3500</MarketValue>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+		</statBases>
+		<tools>
+  
+     
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>      
+		</li>
+    
+		</tools>
+		
+			<verbs>
+			  <li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>0.8</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>0.95</accuracyMedium>
+				<accuracyLong>0.6</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GR_Laser</defaultProjectile>
+				<warmupTime>2.5</warmupTime>
+				<burstShotCount>10</burstShotCount>
+				<minRange>2</minRange>
+				<range>31</range>
+				<soundCast>GR_LaserSound</soundCast>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<!--Commanility determines how frequent this range verb is chosen.-->
+				<commonality>1</commonality>
+			  </li>
+		
+			
+		   </verbs>
+
+		<comps>
+		<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<resourceDef>ComponentIndustrial</resourceDef>
+			<gatheringIntervalDays>2</gatheringIntervalDays>
+			<resourceAmount>1</resourceAmount>
+			<customResourceString>ComponentIndustrialDesc</customResourceString>
+
+        </li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<insectclouds>true</insectclouds>
+				<mechablast>true</mechablast>
+			</li>
+		</comps>
+		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>BeetleLikeWithClaw</body>
+			<herdAnimal>false</herdAnimal>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<baseBodySize>2</baseBodySize>
+			<baseHealthScale>3</baseHealthScale>
+			<foodType>None</foodType>
+			<trainability>Advanced</trainability>
+			<needsRest>true</needsRest>
+			<hasGenders>false</hasGenders>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+			<wildness>0.6</wildness>
+			<lifeExpectancy>2500</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
+          <soundCall>Pawn_Mech_Scyther_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalExotic</li>
+		</tradeTags>
+		<butcherProducts>
+			<Steel>25</Steel>
+			<Plasteel>5</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</butcherProducts>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_Mechachicken</defName>
+		<label>mecha-chicken</label>
+		<race>GR_Mechachicken</race>
+		<combatPower>200</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Mechanoid/Mechachicken/GR_Mechanoid_Chicken</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>2</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.8, 0.6)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+		</lifeStages>
+	</PawnKindDef>
 
 
 </Defs>
