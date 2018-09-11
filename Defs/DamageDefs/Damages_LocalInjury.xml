@@ -62,6 +62,13 @@
     </additionalHediffs>
   </DamageDef>
   
+      <DamageDef ParentName="Bomb">
+    <defName>GR_MiniGrain</defName>
+    <defaultDamage>95</defaultDamage>
+    <defaultStoppingPower>2.0</defaultStoppingPower>
+    <defaultArmorPenetration>1.30</defaultArmorPenetration>
+  </DamageDef>
+  
   
 
  

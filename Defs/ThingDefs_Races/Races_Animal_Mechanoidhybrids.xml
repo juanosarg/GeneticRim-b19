@@ -16,27 +16,27 @@
 			<Flammability>0</Flammability>
 			<MarketValue>3000</MarketValue>
 			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
 		</statBases>
 		<tools>
-  
-     
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>15</power>
-        <cooldownTime>1.65</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>      
-		</li>
-    
+
+
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      
+			</li>
+
 		</tools>
-		
-			<verbs>
-			  <li>
+
+		<verbs>
+			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<accuracyTouch>0.8</accuracyTouch>
 				<accuracyShort>1</accuracyShort>
@@ -53,19 +53,19 @@
 				<muzzleFlashScale>2</muzzleFlashScale>
 				<!--Commanility determines how frequent this range verb is chosen.-->
 				<commonality>1</commonality>
-			  </li>
-		
-			
-		   </verbs>
+			</li>
+
+
+		</verbs>
 
 		<comps>
-		<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
-			<resourceDef>ComponentIndustrial</resourceDef>
-			<gatheringIntervalDays>2</gatheringIntervalDays>
-			<resourceAmount>1</resourceAmount>
-			<customResourceString>ComponentIndustrialDesc</customResourceString>
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>ComponentIndustrial</resourceDef>
+				<gatheringIntervalDays>2</gatheringIntervalDays>
+				<resourceAmount>1</resourceAmount>
+				<customResourceString>ComponentIndustrialDesc</customResourceString>
 
-        </li>
+			</li>
 			<li Class="DraftingPatcher.CompProperties_Draftable">
 				<rage>true</rage>
 				<mechablast>true</mechablast>
@@ -117,19 +117,19 @@
 		<ecoSystemWeight>1</ecoSystemWeight>
 		<lifeStages>
 			<li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Mechanoid/Mechabear/GR_Mechanoid_Bear</texPath>
-          <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>3</drawSize>
-          <shadowData>
-            <volume>(0.6, 0.8, 0.6)</volume>
-          </shadowData>
-        </bodyGraphicData>
-      </li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Mechabear/GR_Mechanoid_Bear</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
 		</lifeStages>
 	</PawnKindDef>
 
-		<!-- Mechanoid - Boomalope -->
+	<!-- Mechanoid - Boomalope -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Mechalope</defName>
 		<label>mechalope</label>
@@ -144,27 +144,27 @@
 			<Flammability>0</Flammability>
 			<MarketValue>3000</MarketValue>
 			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-            <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
 		</statBases>
 		<tools>
-  
-     
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>10</power>
-        <cooldownTime>1.65</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>      
-		</li>
-    
+
+
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      
+			</li>
+
 		</tools>
-		
-			<verbs>
-			  <li>
+
+		<verbs>
+			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<accuracyTouch>0.8</accuracyTouch>
 				<accuracyShort>1</accuracyShort>
@@ -181,19 +181,19 @@
 				<muzzleFlashScale>2</muzzleFlashScale>
 				<!--Commanility determines how frequent this range verb is chosen.-->
 				<commonality>1</commonality>
-			  </li>
-		
-			
-		   </verbs>
+			</li>
+
+
+		</verbs>
 
 		<comps>
-		<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
-			<resourceDef>ComponentIndustrial</resourceDef>
-			<gatheringIntervalDays>2</gatheringIntervalDays>
-			<resourceAmount>1</resourceAmount>
-			<customResourceString>ComponentIndustrialDesc</customResourceString>
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>ComponentIndustrial</resourceDef>
+				<gatheringIntervalDays>2</gatheringIntervalDays>
+				<resourceAmount>1</resourceAmount>
+				<customResourceString>ComponentIndustrialDesc</customResourceString>
 
-        </li>
+			</li>
 			<li Class="DraftingPatcher.CompProperties_Draftable">
 				<explodable>true</explodable>
 				<mechablast>true</mechablast>
@@ -245,18 +245,18 @@
 		<ecoSystemWeight>1</ecoSystemWeight>
 		<lifeStages>
 			<li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Mechanoid/Mechalope/GR_Mechanoid_Boomalope</texPath>
-          <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>3</drawSize>
-          <shadowData>
-            <volume>(0.6, 0.8, 0.6)</volume>
-          </shadowData>
-        </bodyGraphicData>
-      </li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Mechalope/GR_Mechanoid_Boomalope</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
 		</lifeStages>
 	</PawnKindDef>
-	
+
 	<!-- Mechanoid - Chicken -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Mechachicken</defName>
@@ -272,28 +272,28 @@
 			<Flammability>0</Flammability>
 			<MarketValue>1500</MarketValue>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
-            <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
 		</statBases>
 		<tools>
-  
-     
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>3</power>
-        <cooldownTime>1.65</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>      
-		</li>
-    
+
+
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      
+			</li>
+
 		</tools>
-		
-			<verbs>
-			  <li>
-			    <label>sniper flechette</label>
+
+		<verbs>
+			<li>
+				<label>sniper flechette</label>
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
 				<verbClass>Verb_Shoot</verbClass>
 				<accuracyTouch>0.99</accuracyTouch>
@@ -310,19 +310,19 @@
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<!--Commanility determines how frequent this range verb is chosen.-->
 				<commonality>1</commonality>
-			  </li>
-		
-			
-		   </verbs>
+			</li>
+
+
+		</verbs>
 
 		<comps>
-		<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
-			<resourceDef>ComponentIndustrial</resourceDef>
-			<gatheringIntervalDays>2</gatheringIntervalDays>
-			<resourceAmount>1</resourceAmount>
-			<customResourceString>ComponentIndustrialDesc</customResourceString>
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>ComponentIndustrial</resourceDef>
+				<gatheringIntervalDays>2</gatheringIntervalDays>
+				<resourceAmount>1</resourceAmount>
+				<customResourceString>ComponentIndustrialDesc</customResourceString>
 
-        </li>
+			</li>
 			<li Class="DraftingPatcher.CompProperties_Draftable">
 				<chickenRimPox>true</chickenRimPox>
 				<mechablast>true</mechablast>
@@ -348,8 +348,8 @@
 					<def>MechanoidFullyFormed</def>
 					<minAge>0</minAge>
 					<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
-          <soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
-          <soundCall>Pawn_Mech_Scyther_Call</soundCall>
+					<soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
+					<soundCall>Pawn_Mech_Scyther_Call</soundCall>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
@@ -374,19 +374,19 @@
 		<ecoSystemWeight>1</ecoSystemWeight>
 		<lifeStages>
 			<li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Mechanoid/Mechachicken/GR_Mechanoid_Chicken</texPath>
-          <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>2</drawSize>
-          <shadowData>
-            <volume>(0.6, 0.8, 0.6)</volume>
-          </shadowData>
-        </bodyGraphicData>
-      </li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Mechachicken/GR_Mechanoid_Chicken</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
 		</lifeStages>
 	</PawnKindDef>
-	
-		<!-- Mechanoid - Insectoid -->
+
+	<!-- Mechanoid - Insectoid -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Mechaspider</defName>
 		<label>mechaspider</label>
@@ -401,27 +401,27 @@
 			<Flammability>0</Flammability>
 			<MarketValue>3500</MarketValue>
 			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
-            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
 		</statBases>
 		<tools>
-  
-     
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>20</power>
-        <cooldownTime>1.65</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>      
-		</li>
-    
+
+
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      
+			</li>
+
 		</tools>
-		
-			<verbs>
-			  <li>
+
+		<verbs>
+			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<accuracyTouch>0.8</accuracyTouch>
 				<accuracyShort>1</accuracyShort>
@@ -437,19 +437,19 @@
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<!--Commanility determines how frequent this range verb is chosen.-->
 				<commonality>1</commonality>
-			  </li>
-		
-			
-		   </verbs>
+			</li>
+
+
+		</verbs>
 
 		<comps>
-		<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
-			<resourceDef>ComponentIndustrial</resourceDef>
-			<gatheringIntervalDays>2</gatheringIntervalDays>
-			<resourceAmount>1</resourceAmount>
-			<customResourceString>ComponentIndustrialDesc</customResourceString>
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>ComponentIndustrial</resourceDef>
+				<gatheringIntervalDays>2</gatheringIntervalDays>
+				<resourceAmount>1</resourceAmount>
+				<customResourceString>ComponentIndustrialDesc</customResourceString>
 
-        </li>
+			</li>
 			<li Class="DraftingPatcher.CompProperties_Draftable">
 				<insectclouds>true</insectclouds>
 				<mechablast>true</mechablast>
@@ -475,8 +475,8 @@
 					<def>MechanoidFullyFormed</def>
 					<minAge>0</minAge>
 					<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
-          <soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
-          <soundCall>Pawn_Mech_Scyther_Call</soundCall>
+					<soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
+					<soundCall>Pawn_Mech_Scyther_Call</soundCall>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
@@ -501,17 +501,656 @@
 		<ecoSystemWeight>1</ecoSystemWeight>
 		<lifeStages>
 			<li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Mechanoid/Mechaspider/GR_Mechanoid_Megaspider</texPath>
-          <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>4</drawSize>
-          <shadowData>
-            <volume>(0.6, 0.8, 0.6)</volume>
-          </shadowData>
-        </bodyGraphicData>
-      </li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Mechaspider/GR_Mechanoid_Megaspider</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>4</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
 		</lifeStages>
 	</PawnKindDef>
 
+	<!-- Mechanoid - Muffalo -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Mechamuffalo</defName>
+		<label>mecha-muffalo</label>
+		<description>This hulking cybernetic organism has been reinforced with an adaptive plasteel mesh, enabling it to carry an incredible amount of stuff. The mecha-muffalo is the perfect pack animal, but it is quite useless in an offensive role. Defensively, however, it is armed with a smoke cannon that it can use to cover the battlefield in a dense cloud of dust. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components.\n\nUseful abilities: As long as a tamer is near to direct it, the mecha-muffalo can use its smoke cannon to scramble enemy sight. Like all mechanoid hybrids it produces industrial components every couple days. It also produces a weird metallic wool, and metallic tasting milk.</description>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<statBases>
+			<MoveSpeed>3.2</MoveSpeed>
+			<ComfyTemperatureMin>-200</ComfyTemperatureMin>
+			<ComfyTemperatureMax>250</ComfyTemperatureMax>
+			<PsychicSensitivity>0</PsychicSensitivity>
+			<ToxicSensitivity>0</ToxicSensitivity>
+			<Flammability>0</Flammability>
+			<MarketValue>3500</MarketValue>
+			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+		</statBases>
+		<tools>
 
+
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      
+			</li>
+
+		</tools>
+
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>0.8</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>0.95</accuracyMedium>
+				<accuracyLong>0.8</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GR_SmokeBomb</defaultProjectile>
+				<warmupTime>6</warmupTime>
+				<burstShotCount>1</burstShotCount>
+				<minRange>4</minRange>
+				<range>30</range>
+				<forcedMissRadius>2</forcedMissRadius>
+				<soundCast>Pawn_Mech_Centipede_Call</soundCast>
+				<muzzleFlashScale>2</muzzleFlashScale>
+				<!--Commanility determines how frequent this range verb is chosen.-->
+				<commonality>1</commonality>
+			</li>
+
+
+		</verbs>
+
+		<comps>
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>ComponentIndustrial</resourceDef>
+				<gatheringIntervalDays>2</gatheringIntervalDays>
+				<resourceAmount>1</resourceAmount>
+				<customResourceString>ComponentIndustrialDesc</customResourceString>
+
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<carrymore>true</carrymore>
+				<mechablast>true</mechablast>
+			</li>
+		</comps>
+		<race>
+			<packAnimal>true</packAnimal>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithHooves</body>
+			<herdAnimal>true</herdAnimal>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<baseBodySize>13</baseBodySize>
+			<baseHealthScale>6</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<baseHungerRate>0.001</baseHungerRate>
+			<trainability>Advanced</trainability>
+			<needsRest>true</needsRest>
+			<hasGenders>false</hasGenders>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+			<wildness>0.6</wildness>
+			<lifeExpectancy>2500</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+					<soundCall>Pawn_Mech_Centipede_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalExotic</li>
+		</tradeTags>
+		<butcherProducts>
+			<Steel>50</Steel>
+			<Plasteel>10</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</butcherProducts>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_Mechamuffalo</defName>
+		<label>mecha-muffalo</label>
+		<race>GR_Mechamuffalo</race>
+		<combatPower>200</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Mechamuffalo/GR_Mechanoid_Muffalo</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>4</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Mechanoid - Rodent -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Mecharat</defName>
+		<label>mecha-rat</label>
+		<description>This tiny cybernetic organism can be mass-produced as a kind of "suicide weapon". It is very fast, and armed with a short ranged stun gun, so hordes of mecha-rats can be sent to the front lines to keep enemies stunned and in check. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components.\n\nUseful abilities: As long as a tamer is near to direct it, mecha-rats can be sent to the enemy to stun them. Like all mechanoid hybrids it produces industrial components every couple daysh.</description>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<statBases>
+			<MoveSpeed>12</MoveSpeed>
+			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
+			<ComfyTemperatureMax>250</ComfyTemperatureMax>
+			<PsychicSensitivity>0</PsychicSensitivity>
+			<ToxicSensitivity>0</ToxicSensitivity>
+			<Flammability>0</Flammability>
+			<MarketValue>500</MarketValue>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+		</statBases>
+		<tools>
+
+
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      
+			</li>
+
+		</tools>
+
+		<verbs>
+			<li>
+				
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GR_StunBolt</defaultProjectile>
+				<warmupTime>2</warmupTime>
+				<burstShotCount>1</burstShotCount>
+				<minRange>2</minRange>
+				<range>5</range>
+				<soundCast>GR_Buzz</soundCast>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<!--Commanility determines how frequent this range verb is chosen.-->
+				<commonality>1</commonality>
+			</li>
+
+
+		</verbs>
+
+		<comps>
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>ComponentIndustrial</resourceDef>
+				<gatheringIntervalDays>2</gatheringIntervalDays>
+				<resourceAmount>1</resourceAmount>
+				<customResourceString>ComponentIndustrialDesc</customResourceString>
+
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<burrowing>true</burrowing>
+				<mechablast>true</mechablast>
+			</li>
+		</comps>
+		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<herdAnimal>false</herdAnimal>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<baseBodySize>0.2</baseBodySize>
+			<baseHealthScale>1</baseHealthScale>
+			<foodType>None</foodType>
+			<trainability>Advanced</trainability>
+			<needsRest>true</needsRest>
+			<hasGenders>false</hasGenders>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+			<wildness>0.6</wildness>
+			<lifeExpectancy>2500</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
+					<soundCall>Pawn_Mech_Scyther_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalExotic</li>
+		</tradeTags>
+		<butcherProducts>
+			<Steel>10</Steel>
+			<Plasteel>2</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</butcherProducts>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_Mecharat</defName>
+		<label>mecha-rat</label>
+		<race>GR_Mecharat</race>
+		<combatPower>100</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Mecharat/GR_Mechanoid_Rat</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+	<!-- Mechanoid - Reptile -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Mechaturtle</defName>
+		<label>mechaturtle</label>
+		<description>This cybernetic beast is heavily armoured with a plasteel-encased biomechanical shell. It is armed with a poison spitting cannon. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components.\n\nUseful abilities: As long as a tamer is near to direct it, the mechaturtle can hurl poison projectiles to the enemy. Like all mechanoid hybrids it produces industrial components every couple days. It is, of course, quite slow.</description>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<statBases>
+			<MoveSpeed>1</MoveSpeed>
+			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
+			<ComfyTemperatureMax>250</ComfyTemperatureMax>
+			<PsychicSensitivity>0</PsychicSensitivity>
+			<ToxicSensitivity>0</ToxicSensitivity>
+			<Flammability>0</Flammability>
+			<MarketValue>2000</MarketValue>
+			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+		</statBases>
+		<tools>
+
+
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      
+			</li>
+
+		</tools>
+
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GR_PoisonBlast</defaultProjectile>
+				<warmupTime>3</warmupTime>
+				<burstShotCount>1</burstShotCount>
+				<minRange>2</minRange>
+				<range>20</range>
+				<soundCast>GR_PoisonBlast</soundCast>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<!--Commanility determines how frequent this range verb is chosen.-->
+				<commonality>1</commonality>
+			</li>
+
+
+		</verbs>
+
+		<comps>
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>ComponentIndustrial</resourceDef>
+				<gatheringIntervalDays>2</gatheringIntervalDays>
+				<resourceAmount>1</resourceAmount>
+				<customResourceString>ComponentIndustrialDesc</customResourceString>
+
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<poisonouscloud>true</poisonouscloud>
+				<mechablast>true</mechablast>
+			</li>
+		</comps>
+		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>TurtleLike</body>
+			<herdAnimal>false</herdAnimal>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<baseBodySize>1</baseBodySize>
+			<baseHealthScale>3</baseHealthScale>
+			<foodType>None</foodType>
+			<trainability>Advanced</trainability>
+			<needsRest>true</needsRest>
+			<hasGenders>false</hasGenders>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+			<wildness>0.6</wildness>
+			<lifeExpectancy>2500</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+					<soundCall>Pawn_Mech_Centipede_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalExotic</li>
+		</tradeTags>
+		<butcherProducts>
+			<Steel>40</Steel>
+			<Plasteel>6</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</butcherProducts>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_Mechaturtle</defName>
+		<label>mechaturtle</label>
+		<race>GR_Mechaturtle</race>
+		<combatPower>400</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Mechaturtle/GR_Mechanoid_Turtle</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+		<!-- Mechanoid - Wolf -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Mechawolf</defName>
+		<label>mechawolf</label>
+		<description>This cybernetic beast has been augmented with a powerful synthetic structure capable of generating waves of cryogenic liquid. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components.\n\nUseful abilities: As long as a tamer is near to direct it, the mechawolf can launch cryo projectiles that freeze the ground (and enemies!) in contact. Like all mechanoid hybrids it produces industrial components every couple days.</description>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<statBases>
+			<MoveSpeed>6</MoveSpeed>
+			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
+			<ComfyTemperatureMax>250</ComfyTemperatureMax>
+			<PsychicSensitivity>0</PsychicSensitivity>
+			<ToxicSensitivity>0</ToxicSensitivity>
+			<Flammability>0</Flammability>
+			<MarketValue>2000</MarketValue>
+			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+		</statBases>
+		<tools>
+
+
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      
+			</li>
+
+		</tools>
+
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GR_CryoBlast</defaultProjectile>
+				<warmupTime>4</warmupTime>
+				<burstShotCount>1</burstShotCount>
+				<minRange>2</minRange>
+				<range>25</range>
+				<soundCast>GR_Liquid</soundCast>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<!--Commanility determines how frequent this range verb is chosen.-->
+				<commonality>1</commonality>
+			</li>
+
+
+		</verbs>
+
+		<comps>
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>ComponentIndustrial</resourceDef>
+				<gatheringIntervalDays>2</gatheringIntervalDays>
+				<resourceAmount>1</resourceAmount>
+				<customResourceString>ComponentIndustrialDesc</customResourceString>
+
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<adrenalineburst>true</adrenalineburst>
+				<mechablast>true</mechablast>
+			</li>
+		</comps>
+		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<herdAnimal>false</herdAnimal>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<baseBodySize>1.5</baseBodySize>
+			<baseHealthScale>3</baseHealthScale>
+			<foodType>None</foodType>
+			<trainability>Advanced</trainability>
+			<needsRest>true</needsRest>
+			<hasGenders>false</hasGenders>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+			<wildness>0.6</wildness>
+			<lifeExpectancy>2500</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+					<soundCall>Pawn_Mech_Centipede_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalExotic</li>
+		</tradeTags>
+		<butcherProducts>
+			<Steel>35</Steel>
+			<Plasteel>6</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</butcherProducts>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_Mechawolf</defName>
+		<label>mechawolf</label>
+		<race>GR_Mechawolf</race>
+		<combatPower>400</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Mechawolf/GR_Mechanoid_Wolf</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+	
+	<!-- Mechanoid - Thrumbo -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>GR_Mechathrumbo</defName>
+		<label>mechathrumbo</label>
+		<description>This hulking cybernetic behemoth is why you don't need tanks in the Rim. Its huge plasteel carapace hides a miniaturized synchrotron that constantly generates small amounts of antimatter, which is instantly used to fill a miniature antigrain warhead. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components.\n\nUseful abilities: As long as a tamer is near to direct it, the mechathrumbo is like a mortar turret, armed with self-replenishing miniature antigrain warheads. This is SO end game... Like all mechanoid hybrids it produces industrial components every couple days.</description>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<statBases>
+			<MoveSpeed>3</MoveSpeed>
+			<ComfyTemperatureMin>-200</ComfyTemperatureMin>
+			<ComfyTemperatureMax>350</ComfyTemperatureMax>
+			<PsychicSensitivity>0</PsychicSensitivity>
+			<ToxicSensitivity>0</ToxicSensitivity>
+			<Flammability>0</Flammability>
+			<MarketValue>4000</MarketValue>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+		</statBases>
+		<tools>
+
+
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>      
+			</li>
+
+		</tools>
+
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>0.8</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>0.95</accuracyMedium>
+				<accuracyLong>0.8</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GR_Warhead</defaultProjectile>
+				<warmupTime>5</warmupTime>
+				<burstShotCount>1</burstShotCount>
+				<minRange>10</minRange>
+				<range>60</range>
+				<forcedMissRadius>2</forcedMissRadius>
+				<soundCast>Mortar_LaunchA</soundCast>
+				<muzzleFlashScale>15</muzzleFlashScale>
+				<!--Commanility determines how frequent this range verb is chosen.-->
+				<commonality>1</commonality>
+			</li>
+
+
+		</verbs>
+
+		<comps>
+			<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>ComponentIndustrial</resourceDef>
+				<gatheringIntervalDays>2</gatheringIntervalDays>
+				<resourceAmount>1</resourceAmount>
+				<customResourceString>ComponentIndustrialDesc</customResourceString>
+
+			</li>
+			<li Class="DraftingPatcher.CompProperties_Draftable">
+				<stampede>true</stampede>
+				<mechablast>true</mechablast>
+			</li>
+		</comps>
+		<race>
+			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
+			<body>QuadrupedAnimalWithHoovesAndHorn</body>
+			<herdAnimal>false</herdAnimal>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<baseBodySize>10</baseBodySize>
+			<baseHealthScale>10</baseHealthScale>
+			<foodType>None</foodType>
+			<trainability>Advanced</trainability>
+			<needsRest>true</needsRest>
+			<hasGenders>false</hasGenders>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+			<wildness>0.6</wildness>
+			<lifeExpectancy>2500</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+					<soundCall>Pawn_Mech_Centipede_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalExotic</li>
+		</tradeTags>
+		<butcherProducts>
+			<Steel>100</Steel>
+			<Plasteel>20</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</butcherProducts>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>GR_Mechathrumbo</defName>
+		<label>mechathrumbo</label>
+		<race>GR_Mechathrumbo</race>
+		<combatPower>1000</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mechanoid/Mechathrumbo/GR_Mechanoid_Thrumbo</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>5</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
 </Defs>
