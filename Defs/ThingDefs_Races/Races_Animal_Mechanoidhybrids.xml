@@ -293,6 +293,8 @@
 		
 			<verbs>
 			  <li>
+			    <label>sniper flechette</label>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
 				<verbClass>Verb_Shoot</verbClass>
 				<accuracyTouch>0.99</accuracyTouch>
 				<accuracyShort>0.99</accuracyShort>
@@ -485,24 +487,24 @@
 			<li>AnimalExotic</li>
 		</tradeTags>
 		<butcherProducts>
-			<Steel>25</Steel>
-			<Plasteel>5</Plasteel>
-			<ComponentIndustrial>1</ComponentIndustrial>
+			<Steel>50</Steel>
+			<Plasteel>10</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
 		</butcherProducts>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>GR_Mechachicken</defName>
-		<label>mecha-chicken</label>
-		<race>GR_Mechachicken</race>
-		<combatPower>200</combatPower>
+		<defName>GR_Mechaspider</defName>
+		<label>mechaspider</label>
+		<race>GR_Mechaspider</race>
+		<combatPower>500</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>1</ecoSystemWeight>
 		<lifeStages>
 			<li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Mechanoid/Mechachicken/GR_Mechanoid_Chicken</texPath>
+          <texPath>Things/Pawn/Animal/Mechanoid/Mechaspider/GR_Mechanoid_Megaspider</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>2</drawSize>
+          <drawSize>4</drawSize>
           <shadowData>
             <volume>(0.6, 0.8, 0.6)</volume>
           </shadowData>

@@ -23,6 +23,23 @@
       </li>
     </subSounds>
   </SoundDef>
+  
+  <SoundDef>
+    <defName>GR_CompleteSilence</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>CompleteSilence</clipFolderPath>
+          </li>
+        </grains>
+        
+      </li>
+    </subSounds>
+  </SoundDef>
 
 
 
