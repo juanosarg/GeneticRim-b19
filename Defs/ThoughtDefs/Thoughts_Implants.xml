@@ -59,9 +59,9 @@
     <stages>
       
       <li>
-        <label>your colonist is a fat cow</label>
-        <description>This is really deeply humilliating!</description>
-        <baseMoodEffect>-10</baseMoodEffect>
+        <label>feeling like a fat cow</label>
+        <description>I'm being milked like an animal! This is really deeply humilliating!</description>
+        <baseMoodEffect>-5</baseMoodEffect>
       </li>
      
     </stages>

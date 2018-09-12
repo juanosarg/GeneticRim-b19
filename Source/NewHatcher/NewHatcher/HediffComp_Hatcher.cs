@@ -29,7 +29,7 @@ namespace NewHatcher
                 HatchingTicker += 1;
             } else
             {
-                if ((this.parent.pawn.Map != null)&&(this.parent.pawn.Faction == Faction.OfPlayer)) { 
+                if ((this.parent.pawn.Map != null)&&((this.parent.pawn.Faction == Faction.OfPlayer)|| ((this.parent.pawn.IsPrisoner)&& (this.parent.pawn.Map.IsPlayerHome)))) { 
                     GenSpawn.Spawn(ThingDef.Named("EggChickenUnfertilized"), this.parent.pawn.Position, this.parent.pawn.Map);
                 }
                 HatchingTicker = 0;

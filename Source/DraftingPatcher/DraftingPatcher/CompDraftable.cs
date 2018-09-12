@@ -98,5 +98,13 @@ namespace DraftingPatcher
                 return this.Props.horror;
             }
         }
+
+        public bool GetMechablast
+        {
+            get
+            {
+                return this.Props.mechablast;
+            }
+        }
     }
 }

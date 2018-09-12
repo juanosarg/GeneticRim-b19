@@ -1904,7 +1904,7 @@
 		<products>
 			<GR_MechabearIncubator>1</GR_MechabearIncubator>
 		</products>
-		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_AdvancedMechaniteBioIntegration</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
 		</skillRequirements>
@@ -1959,7 +1959,7 @@
 		<products>
 			<GR_MechamuffaloIncubator>1</GR_MechamuffaloIncubator>
 		</products>
-		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_AdvancedMechaniteBioIntegration</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
 		</skillRequirements>
@@ -2014,7 +2014,7 @@
 		<products>
 			<GR_MechalopeIncubator>1</GR_MechalopeIncubator>
 		</products>
-		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_AdvancedMechaniteBioIntegration</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
 		</skillRequirements>
@@ -2069,7 +2069,7 @@
 		<products>
 			<GR_MechachickenIncubator>1</GR_MechachickenIncubator>
 		</products>
-		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_AdvancedMechaniteBioIntegration</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
 		</skillRequirements>
@@ -2124,7 +2124,7 @@
 		<products>
 			<GR_MechawolfIncubator>1</GR_MechawolfIncubator>
 		</products>
-		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_AdvancedMechaniteBioIntegration</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
 		</skillRequirements>
@@ -2179,7 +2179,7 @@
 		<products>
 			<GR_MecharatIncubator>1</GR_MecharatIncubator>
 		</products>
-		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_AdvancedMechaniteBioIntegration</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
 		</skillRequirements>
@@ -2234,7 +2234,7 @@
 		<products>
 			<GR_MechaspiderIncubator>1</GR_MechaspiderIncubator>
 		</products>
-		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_AdvancedMechaniteBioIntegration</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
 		</skillRequirements>
@@ -2289,7 +2289,7 @@
 		<products>
 			<GR_MechaturtleIncubator>1</GR_MechaturtleIncubator>
 		</products>
-		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_AdvancedMechaniteBioIntegration</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
 		</skillRequirements>
@@ -2344,7 +2344,7 @@
 		<products>
 			<GR_MechathrumboIncubator>1</GR_MechathrumboIncubator>
 		</products>
-		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_AdvancedMechaniteBioIntegration</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
 		</skillRequirements>

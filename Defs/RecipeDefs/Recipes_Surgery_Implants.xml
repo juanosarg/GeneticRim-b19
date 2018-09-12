@@ -61,6 +61,15 @@
 			<li>GR_Wolfalope</li>
 			<li>GR_Wolfchicken</li>
 			<li>GR_Wolffalo</li>
+			<li>GR_Mechabear</li>
+			<li>GR_Mechalope</li>
+			<li>GR_Mechachicken</li>
+			<li>GR_Mechaspider</li>
+			<li>GR_Mechamuffalo</li>
+			<li>GR_Mecharat</li>
+			<li>GR_Mechaturtle</li>
+			<li>GR_Mechawolf</li>
+			<li>GR_Mechathrumbo</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Leg</li> 
@@ -93,7 +102,10 @@
 			<li>GR_Thrumbochicken</li>
 			<li>GR_Wolfbear</li>
 			<li>GR_Wolfalope</li>
-			<li>GR_Wolffalo</li>
+			<li>GR_Wolffalo</li>			
+			<li>GR_Mechachicken</li>		
+			<li>GR_Mechaturtle</li>
+			<li>GR_Mechawolf</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Tail</li> 
@@ -162,6 +174,15 @@
 			<li>GR_Wolfalope</li>
 			<li>GR_Wolfchicken</li>
 			<li>GR_Wolffalo</li>
+			<li>GR_Mechabear</li>
+			<li>GR_Mechalope</li>
+			<li>GR_Mechachicken</li>
+			<li>GR_Mechaspider</li>
+			<li>GR_Mechamuffalo</li>
+			<li>GR_Mecharat</li>
+			<li>GR_Mechaturtle</li>
+			<li>GR_Mechawolf</li>
+			<li>GR_Mechathrumbo</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Eye</li> 
@@ -230,6 +251,14 @@
 			<li>GR_Wolfalope</li>
 			<li>GR_Wolfchicken</li>
 			<li>GR_Wolffalo</li>
+			<li>GR_Mechabear</li>
+			<li>GR_Mechalope</li>
+			<li>GR_Mechaspider</li>
+			<li>GR_Mechamuffalo</li>
+			<li>GR_Mecharat</li>
+			<li>GR_Mechaturtle</li>
+			<li>GR_Mechawolf</li>
+			<li>GR_Mechathrumbo</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Ear</li> 
@@ -276,6 +305,12 @@
 			<li>GR_Wolfalope</li>
 			<li>GR_Wolfchicken</li>
 			<li>GR_Wolffalo</li>
+			<li>GR_Mechabear</li>
+			<li>GR_Mechalope</li>
+			<li>GR_Mechamuffalo</li>
+			<li>GR_Mecharat</li>
+			<li>GR_Mechaturtle</li>
+			<li>GR_Mechawolf</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Nose</li> 
@@ -344,6 +379,15 @@
 			<li>GR_Wolfalope</li>
 			<li>GR_Wolfchicken</li>
 			<li>GR_Wolffalo</li>
+			<li>GR_Mechabear</li>
+			<li>GR_Mechalope</li>
+			<li>GR_Mechachicken</li>
+			<li>GR_Mechaspider</li>
+			<li>GR_Mechamuffalo</li>
+			<li>GR_Mecharat</li>
+			<li>GR_Mechaturtle</li>
+			<li>GR_Mechawolf</li>
+			<li>GR_Mechathrumbo</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>AnimalJaw</li>
@@ -406,6 +450,14 @@
 			<li>GR_Wolfalope</li>
 			<li>GR_Wolfchicken</li>
 			<li>GR_Wolffalo</li>
+			<li>GR_Mechabear</li>
+			<li>GR_Mechalope</li>
+			<li>GR_Mechachicken</li>
+			<li>GR_Mechamuffalo</li>
+			<li>GR_Mecharat</li>
+			<li>GR_Mechaturtle</li>
+			<li>GR_Mechawolf</li>
+			<li>GR_Mechathrumbo</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Spine</li>
@@ -475,6 +527,15 @@
 			<li>GR_Wolfalope</li>
 			<li>GR_Wolfchicken</li>
 			<li>GR_Wolffalo</li>
+			<li>GR_Mechabear</li>
+			<li>GR_Mechalope</li>
+			<li>GR_Mechachicken</li>
+			<li>GR_Mechaspider</li>
+			<li>GR_Mechamuffalo</li>
+			<li>GR_Mecharat</li>
+			<li>GR_Mechaturtle</li>
+			<li>GR_Mechawolf</li>
+			<li>GR_Mechathrumbo</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Brain</li>
@@ -544,6 +605,15 @@
 			<li>GR_Wolfalope</li>
 			<li>GR_Wolfchicken</li>
 			<li>GR_Wolffalo</li>
+			<li>GR_Mechabear</li>
+			<li>GR_Mechalope</li>
+			<li>GR_Mechachicken</li>
+			<li>GR_Mechaspider</li>
+			<li>GR_Mechamuffalo</li>
+			<li>GR_Mecharat</li>
+			<li>GR_Mechaturtle</li>
+			<li>GR_Mechawolf</li>
+			<li>GR_Mechathrumbo</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Heart</li>
@@ -609,6 +679,14 @@
 			<li>GR_Wolfalope</li>
 			<li>GR_Wolfchicken</li>
 			<li>GR_Wolffalo</li>
+			<li>GR_Mechabear</li>
+			<li>GR_Mechalope</li>
+			<li>GR_Mechachicken</li>
+			<li>GR_Mechamuffalo</li>
+			<li>GR_Mecharat</li>
+			<li>GR_Mechaturtle</li>
+			<li>GR_Mechawolf</li>
+			<li>GR_Mechathrumbo</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Lung</li>
@@ -672,6 +750,14 @@
 			<li>GR_Wolfalope</li>
 			<li>GR_Wolfchicken</li>
 			<li>GR_Wolffalo</li>
+			<li>GR_Mechabear</li>
+			<li>GR_Mechalope</li>
+			<li>GR_Mechachicken</li>
+			<li>GR_Mechamuffalo</li>
+			<li>GR_Mecharat</li>
+			<li>GR_Mechaturtle</li>
+			<li>GR_Mechawolf</li>
+			<li>GR_Mechathrumbo</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Liver</li>
@@ -734,6 +820,14 @@
 			<li>GR_Wolfalope</li>
 			<li>GR_Wolfchicken</li>
 			<li>GR_Wolffalo</li>
+			<li>GR_Mechabear</li>
+			<li>GR_Mechalope</li>
+			<li>GR_Mechachicken</li>
+			<li>GR_Mechamuffalo</li>
+			<li>GR_Mecharat</li>
+			<li>GR_Mechaturtle</li>
+			<li>GR_Mechawolf</li>
+			<li>GR_Mechathrumbo</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Kidney</li>
@@ -803,6 +897,15 @@
 			<li>GR_Wolfalope</li>
 			<li>GR_Wolfchicken</li>
 			<li>GR_Wolffalo</li>
+			<li>GR_Mechabear</li>
+			<li>GR_Mechalope</li>
+			<li>GR_Mechachicken</li>
+			<li>GR_Mechaspider</li>
+			<li>GR_Mechamuffalo</li>
+			<li>GR_Mecharat</li>
+			<li>GR_Mechaturtle</li>
+			<li>GR_Mechawolf</li>
+			<li>GR_Mechathrumbo</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Stomach</li>
@@ -818,7 +921,7 @@
 		<defName>GR_InstallBearLeg</defName>
 		<label>install animal Implant: bear leg (tier 1)</label>
 		<description>Installs bear leg.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing bear leg.</jobString>		
 		<ingredients>
 			<li>
@@ -854,7 +957,7 @@
 		<defName>GR_InstallLizardLeg</defName>
 		<label>install animal Implant: lizard leg (tier 2)</label>
 		<description>Installs lizard leg.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing lizard leg.</jobString>		
 		<ingredients>
 			<li>
@@ -890,7 +993,7 @@
 		<defName>GR_InstallThrumboLeg</defName>
 		<label>install animal Implant: thrumbo leg (tier 3)</label>
 		<description>Installs thrumbo leg.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing thrumbo leg.</jobString>		
 		<ingredients>
 			<li>
@@ -929,7 +1032,7 @@
 		<defName>GR_InstallScytherTail</defName>
 		<label>install animal Implant: scyther tail (tier 2)</label>
 		<description>Installs scyther tail.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing scyther tail.</jobString>		
 		<ingredients>
 			<li>
@@ -960,6 +1063,42 @@
 
 		<addsHediff>GR_ScytherTail</addsHediff>
 	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_TailImplants">
+		<defName>GR_InstallMechaTail</defName>
+		<label>install animal Implant: mechanoid tail (tier 3)</label>
+		<description>Installs mechanoid tail.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing mechanoid tail.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MechaTail</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_MechaTail</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_MechaTail</addsHediff>
+	</RecipeDef>
 
 	<!--=============== Eyes ====================-->
 
@@ -968,7 +1107,7 @@
 		<defName>GR_InstallCanidEye</defName>
 		<label>install animal Implant: canid eye (tier 1)</label>
 		<description>Installs canid eye.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing canid eye.</jobString>		
 		<ingredients>
 			<li>
@@ -1004,7 +1143,7 @@
 		<defName>GR_InstallInsectileEye</defName>
 		<label>install animal Implant: insectile eye (tier 2)</label>
 		<description>Installs insectile eye.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing insectile eye.</jobString>		
 		<ingredients>
 			<li>
@@ -1040,7 +1179,7 @@
 		<defName>GR_InstallThrumboEye</defName>
 		<label>install animal Implant: bionic thrumbo eye (tier 3)</label>
 		<description>Installs thrumbo eye.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing thrumbo eye.</jobString>		
 		<ingredients>
 			<li>
@@ -1079,7 +1218,7 @@
 		<defName>GR_InstallRodentEar</defName>
 		<label>install animal Implant: rodent ear (tier 1)</label>
 		<description>Installs rodent ear.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing rodent ear.</jobString>		
 		<ingredients>
 			<li>
@@ -1115,7 +1254,7 @@
 		<defName>GR_InstallMothTympanalOrgan</defName>
 		<label>install animal Implant: moth tympanal organ (tier 2)</label>
 		<description>Installs moth tympanal organ.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing moth tympanal organ.</jobString>		
 		<ingredients>
 			<li>
@@ -1147,6 +1286,42 @@
 		<addsHediff>GR_MothTympanalOrgan</addsHediff>
 	</RecipeDef>
 
+	<RecipeDef ParentName="GR_EarImplants">
+		<defName>GR_InstallMechaReceptors</defName>
+		<label>install animal Implant: mechanoid auditory receptors (tier 3)</label>
+		<description>Installs mechanoid auditory receptors.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing mechanoid auditory receptors.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MechaReceptors</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_MechaReceptors</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_MechaReceptors</addsHediff>
+	</RecipeDef>	
+
 	<!--=============== Noses ====================-->
 
 
@@ -1154,7 +1329,7 @@
 		<defName>GR_InstallRodentNose</defName>
 		<label>install animal Implant: rodent nose (tier 1)</label>
 		<description>Installs rodent nose.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing rodent nose.</jobString>		
 		<ingredients>
 			<li>
@@ -1185,12 +1360,48 @@
 
 		<addsHediff>GR_RodentNose</addsHediff>
 	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_NoseImplants">
+		<defName>GR_InstallInsectoidPheromones</defName>
+		<label>install animal Implant: insectoid pheromones (tier 2)</label>
+		<description>Installs insectoid pheromones.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing insectoid pheromones.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_InsectoidPheromones</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_InsectoidPheromones</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_InsectoidPheromones</addsHediff>
+	</RecipeDef>
 
 	<RecipeDef ParentName="GR_NoseImplants">
 		<defName>GR_InstallMiniatureThrumboHorn</defName>
 		<label>install animal Implant: miniature thrumbo horn (tier 3)</label>
 		<description>Installs miniature thrumbo horn.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing miniature thrumbo horn.</jobString>		
 		<ingredients>
 			<li>
@@ -1229,7 +1440,7 @@
 		<defName>GR_InstallWolfJaws</defName>
 		<label>install animal Implant: wolf jaws (tier 1)</label>
 		<description>Installs wolf jaws.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing wolf jaws.</jobString>		
 		<ingredients>
 			<li>
@@ -1265,7 +1476,7 @@
 		<defName>GR_InstallInsectMandibles</defName>
 		<label>install animal Implant: insect mandibles (tier 2)</label>
 		<description>Installs insect mandibles.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing insect mandibles.</jobString>		
 		<ingredients>
 			<li>
@@ -1301,7 +1512,7 @@
 		<defName>GR_InstallThrumboJaws</defName>
 		<label>install animal Implant: bionic thrumbo jaws (tier 3)</label>
 		<description>Installs bionic thrumbo jaws.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing bionic thrumbo jaws.</jobString>		
 		<ingredients>
 			<li>
@@ -1340,7 +1551,7 @@
 		<defName>GR_InstallMuffaloSpine</defName>
 		<label>install animal Implant: muffalo spine (tier 1)</label>
 		<description>Installs muffalo spine.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing muffalo spine.</jobString>		
 		<ingredients>
 			<li>
@@ -1376,7 +1587,7 @@
 		<defName>GR_InstallCrocodileSpine</defName>
 		<label>install animal Implant: crocodile spine (tier 2)</label>
 		<description>Installs crocodile spine.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing crocodile spine.</jobString>		
 		<ingredients>
 			<li>
@@ -1408,6 +1619,42 @@
 		<addsHediff>GR_CrocodileSpine</addsHediff>
 	</RecipeDef>
 
+	<RecipeDef ParentName="GR_SpineImplants">
+		<defName>GR_InstallMechaSpine</defName>
+		<label>install animal Implant: mechanoid spine (tier 3)</label>
+		<description>Installs mechanoid spine.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing mechanoid spine.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MechaSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_MechaSpine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_MechaSpine</addsHediff>
+	</RecipeDef>	
+	
 	<!--=============== Brains ====================-->
 
 
@@ -1415,7 +1662,7 @@
 		<defName>GR_InstallChickenBrains</defName>
 		<label>install animal Implant: chicken brains (tier 1)</label>
 		<description>Installs chicken brains.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing chicken brains.</jobString>		
 		<ingredients>
 			<li>
@@ -1451,7 +1698,7 @@
 		<defName>GR_InstallMonitorLizardBrain</defName>
 		<label>install animal Implant: monitor lizard brain (tier 2)</label>
 		<description>Installs monitor lizard brain.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing monitor lizard brain.</jobString>		
 		<ingredients>
 			<li>
@@ -1487,7 +1734,7 @@
 		<defName>GR_InstallThrumboBrain</defName>
 		<label>install animal Implant: bionic thrumbo brain (tier 3)</label>
 		<description>Installs bionic thrumbo brain.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing bionic thrumbo brain.</jobString>		
 		<ingredients>
 			<li>
@@ -1526,7 +1773,7 @@
 		<defName>GR_InstallBoomalopeHeart</defName>
 		<label>install animal Implant: boomalope heart (tier 1)</label>
 		<description>Installs boomalope heart.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing boomalope heart.</jobString>		
 		<ingredients>
 			<li>
@@ -1562,7 +1809,7 @@
 		<defName>GR_InstallChitinousHeart</defName>
 		<label>install animal Implant: chitinous heart (tier 2)</label>
 		<description>Installs chitinous heart.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing chitinous heart.</jobString>		
 		<ingredients>
 			<li>
@@ -1593,6 +1840,42 @@
 
 		<addsHediff>GR_ChitinousHeart</addsHediff>
 	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HeartImplants">
+		<defName>GR_InstallMechaHeart</defName>
+		<label>install animal Implant: mechanoid heart (tier 3)</label>
+		<description>Installs mechanoid heart.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing mechanoid heart.</jobString>		
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MechaHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_MechaHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<addsHediff>GR_MechaHeart</addsHediff>
+	</RecipeDef>
 
 	<!--=============== Lungs ====================-->
 
@@ -1601,7 +1884,7 @@
 		<defName>GR_InstallMuffaloLung</defName>
 		<label>install animal Implant: muffalo lung (tier 1)</label>
 		<description>Installs muffalo lung.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing muffalo lung.</jobString>		
 		<ingredients>
 			<li>
@@ -1640,7 +1923,7 @@
 		<defName>GR_InstallBearLiver</defName>
 		<label>install animal Implant: bear liver (tier 1)</label>
 		<description>Installs bear liver.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing bear liver.</jobString>		
 		<ingredients>
 			<li>
@@ -1679,7 +1962,7 @@
 		<defName>GR_InstallChickenKidney</defName>
 		<label>install animal Implant: chicken kidney (tier 1)</label>
 		<description>Installs chicken kidney.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing chicken kidney.</jobString>		
 		<ingredients>
 			<li>
@@ -1715,7 +1998,7 @@
 		<defName>GR_InstallBoomalopeStomach</defName>
 		<label>install animal Implant: boomalope stomach (tier 1)</label>
 		<description>Installs boomalope stomach.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing boomalope stomach.</jobString>		
 		<ingredients>
 			<li>
@@ -1752,7 +2035,7 @@
 		<defName>GR_InstallBearClaws</defName>
 		<label>install bear claws</label>
 		<description>Installs bear claws.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing bear claws.</jobString>
 		<workAmount>2000</workAmount>
 		<recipeUsers>
@@ -1794,7 +2077,7 @@
 		<defName>GR_InstallOvipositor</defName>
 		<label>install ovipositor</label>
 		<description>Installs ovipositor.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing ovipositor.</jobString>
 		<workAmount>2000</workAmount>
 		<recipeUsers>
@@ -1836,7 +2119,7 @@
 		<defName>GR_InstallMuffaloMuscles</defName>
 		<label>install muffalo strengthened muscles</label>
 		<description>Installs muffalo strengthened muscles.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing muffalo strengthened muscles.</jobString>
 		<workAmount>2000</workAmount>
 		<recipeUsers>
@@ -1878,7 +2161,7 @@
 		<defName>GR_InstallMuffaloMammaries</defName>
 		<label>install muffalo mammaries</label>
 		<description>Installs muffalo mammaries.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing muffalo mammaries.</jobString>
 		<workAmount>2000</workAmount>
 		<recipeUsers>
@@ -1920,7 +2203,7 @@
 		<defName>GR_InstallBoomalopeNodules</defName>
 		<label>install boomalope nodules</label>
 		<description>Installs boomalope nodules.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing boomalope nodules.</jobString>
 		<workAmount>2000</workAmount>
 		<recipeUsers>
@@ -1962,7 +2245,7 @@
 		<defName>GR_InstallWolfMuscularFibers</defName>
 		<label>install wolf muscular fibers</label>
 		<description>Installs wolf muscular fibers.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing wolf muscular fibers.</jobString>
 		<workAmount>2000</workAmount>
 		<recipeUsers>
@@ -2004,7 +2287,7 @@
 		<defName>GR_InstallBunnyEars</defName>
 		<label>install bunny ears</label>
 		<description>Installs bunny ears.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing bunny ears.</jobString>
 		<workAmount>2000</workAmount>
 		<recipeUsers>
@@ -2046,7 +2329,7 @@
 		<defName>GR_InstallInsectoidAntennae</defName>
 		<label>install insectoid antennae</label>
 		<description>Installs insectoid antennae.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing insectoid antennae.</jobString>
 		<workAmount>2000</workAmount>
 		<recipeUsers>
@@ -2089,7 +2372,7 @@
 		<defName>GR_InstallHumanThrumboHorn</defName>
 		<label>install thrumbo horn</label>
 		<description>Installs thrumbo horn.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing thrumbo horn.</jobString>
 		<workAmount>2000</workAmount>
 		<recipeUsers>
@@ -2132,7 +2415,7 @@
 		<defName>GR_InstallVenomousFangs</defName>
 		<label>install venomous fangs</label>
 		<description>Installs venomous fangs.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing venomous fangs.</jobString>
 		<workAmount>2000</workAmount>
 		<recipeUsers>

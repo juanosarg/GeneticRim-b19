@@ -84,7 +84,7 @@
     <projectile>
       <speed>40</speed>
       <damageDef>Flame</damageDef>
-	  <damageAmountBase>1.5</damageAmountBase>
+	  <damageAmountBase>2</damageAmountBase>
       <explosionRadius>1.1</explosionRadius>
       <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
       <preExplosionSpawnChance>0.6</preExplosionSpawnChance>

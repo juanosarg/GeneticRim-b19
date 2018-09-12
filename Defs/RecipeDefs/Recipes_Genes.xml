@@ -512,7 +512,7 @@
 		<products>
 			<GR_MechanoidGenetic>1</GR_MechanoidGenetic>
 		</products>
-		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_AdvancedMechaniteBioIntegration</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
 		</skillRequirements>

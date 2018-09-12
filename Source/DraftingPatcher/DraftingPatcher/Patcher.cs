@@ -83,6 +83,8 @@ namespace DraftingPatcher
             bool flagCanBurrow = false;
             bool flagCanStamina = false;
             bool flagCanHorrorize = false;
+            bool flagCanMechaBlast = false;
+
 
 
 
@@ -109,6 +111,8 @@ namespace DraftingPatcher
                         flagCanBurrow = pawn.TryGetComp<CompDraftable>().GetCanBurrow;
                         flagCanStamina = pawn.TryGetComp<CompDraftable>().HasDinoStamina;
                         flagCanHorrorize = pawn.TryGetComp<CompDraftable>().GetHorror;
+                        flagCanMechaBlast = pawn.TryGetComp<CompDraftable>().GetMechablast;
+
 
                         flagIsMindControlBuildingPresent = true;
                     }
@@ -436,6 +440,36 @@ namespace DraftingPatcher
                 };
                 gizmos.Insert(1, GR_Gizmo_Horror);
             }
+
+            /*This gizmo makes the animal release a burning explosion
+          */
+            if ((pawn.drafter != null) && flagCanMechaBlast && flagIsCreatureMine && flagIsMindControlBuildingPresent)
+            {
+                Command_Action GR_Gizmo_MechaBlast = new Command_Action();
+                GR_Gizmo_MechaBlast.action = delegate
+                {
+                    if (!pawn.health.hediffSet.HasHediff(HediffDef.Named("GR_VentedExhaust")))
+                    {
+
+                        foreach (IntVec3 c in GenAdj.CellsAdjacent8Way(pawn))
+                        {
+                            GenExplosion.DoExplosion(c, pawn.Map, (float)0.25, DamageDefOf.Flame, pawn, 25, 5, null, null, null, null, ThingDef.Named("Filth_Ash"), .7f, 1, false, null, 0f, 1);
+                        }
+                       
+
+                        pawn.health.AddHediff(HediffDef.Named("GR_VentedExhaust"));
+                    }
+                    else
+                    {
+                        Messages.Message("GR_AbilityRecharging".Translate(), pawn, MessageTypeDefOf.NeutralEvent);
+                    }
+                };
+                GR_Gizmo_MechaBlast.defaultLabel = "GR_StartMechaBlast".Translate();
+                GR_Gizmo_MechaBlast.defaultDesc = "GR_StartMechaBlastDesc".Translate();
+                GR_Gizmo_MechaBlast.icon = ContentFinder<Texture2D>.Get("ui/commands/GR_MechaBlast", true);
+                gizmos.Insert(1, GR_Gizmo_MechaBlast);
+            }
+
 
 
             __result = gizmos;

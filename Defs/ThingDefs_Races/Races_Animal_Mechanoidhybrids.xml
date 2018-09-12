@@ -88,7 +88,7 @@
 			<lifeExpectancy>2500</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>MechanoidFullyFormed</def>
+					<def>AnimalAdult</def>
 					<minAge>0</minAge>
 					<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
 					<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
@@ -194,6 +194,12 @@
 				<customResourceString>ComponentIndustrialDesc</customResourceString>
 
 			</li>
+			<li Class="CompProperties_Milkable">
+				<milkDef>Chemfuel</milkDef>
+				<milkIntervalDays>2</milkIntervalDays>
+				<milkAmount>20</milkAmount>
+				<milkFemaleOnly>false</milkFemaleOnly>
+			</li>
 			<li Class="DraftingPatcher.CompProperties_Draftable">
 				<explodable>true</explodable>
 				<mechablast>true</mechablast>
@@ -216,7 +222,7 @@
 			<lifeExpectancy>2500</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>MechanoidFullyFormed</def>
+					<def>AnimalAdult</def>
 					<minAge>0</minAge>
 					<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
 					<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
@@ -323,6 +329,14 @@
 				<customResourceString>ComponentIndustrialDesc</customResourceString>
 
 			</li>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>GR_ElectroEgg</eggUnfertilizedDef>
+				<eggFertilizedDef>GR_ElectroEgg</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>1</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+				<eggLayFemaleOnly>false</eggLayFemaleOnly>
+			</li>
 			<li Class="DraftingPatcher.CompProperties_Draftable">
 				<chickenRimPox>true</chickenRimPox>
 				<mechablast>true</mechablast>
@@ -345,7 +359,7 @@
 			<lifeExpectancy>2500</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>MechanoidFullyFormed</def>
+					<def>AnimalAdult</def>
 					<minAge>0</minAge>
 					<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
 					<soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
@@ -472,7 +486,7 @@
 			<lifeExpectancy>2500</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>MechanoidFullyFormed</def>
+					<def>AnimalAdult</def>
 					<minAge>0</minAge>
 					<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
 					<soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
@@ -602,7 +616,7 @@
 			<lifeExpectancy>2500</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>MechanoidFullyFormed</def>
+					<def>AnimalAdult</def>
 					<minAge>0</minAge>
 					<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
 					<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
@@ -730,7 +744,7 @@
 			<lifeExpectancy>2500</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>MechanoidFullyFormed</def>
+					<def>AnimalAdult</def>
 					<minAge>0</minAge>
 					<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
 					<soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
@@ -857,7 +871,7 @@
 			<lifeExpectancy>2500</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>MechanoidFullyFormed</def>
+					<def>AnimalAdult</def>
 					<minAge>0</minAge>
 					<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
 					<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
@@ -984,7 +998,7 @@
 			<lifeExpectancy>2500</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>MechanoidFullyFormed</def>
+					<def>AnimalAdult</def>
 					<minAge>0</minAge>
 					<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
 					<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
@@ -1113,7 +1127,7 @@
 			<lifeExpectancy>2500</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>MechanoidFullyFormed</def>
+					<def>AnimalAdult</def>
 					<minAge>0</minAge>
 					<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
 					<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>

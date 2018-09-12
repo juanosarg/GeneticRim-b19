@@ -369,6 +369,46 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_MechaTail</defName>
+		<label>animal Implant: mechanoid tail (tier 3)</label>
+		<description>Craft an advanced mechanoid tail, even more powerful than the old scyther tail. Note that only creatures with a natural tail can use this.</description>
+		<jobString>Making mechanoid tail implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantUraniumWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MechanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantUraniumWireMesh</li>
+				<li>GR_MechanoidGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MechaTail>1</GR_MechaTail>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
 
 	<!--=============== Eyes ====================-->	
 
@@ -597,6 +637,46 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>	
+	
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_MechaReceptors</defName>
+		<label>animal Implant: mechanoid auditory receptors (tier 3)</label>
+		<description>Craft mechanoid auditory receptors that can scan a really wide band of frequencies.</description>
+		<jobString>Making mechanoid auditory receptors implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantUraniumWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MechanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantUraniumWireMesh</li>
+				<li>GR_MechanoidGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MechaReceptors>1</GR_MechaReceptors>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
 
 	<!--=============== Noses ====================-->	
 
@@ -639,6 +719,46 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_InsectoidPheromones</defName>
+		<label>animal Implant: insectoid pheromones (tier 2)</label>
+		<description>Craft an implant that uses genetic splicing with alien insectoid genes to give the ability to detect pheromones, thus improving the olfactory system. Can't be installed on birds and (ironically) insects.</description>
+		<jobString>Making insectoid pheromones implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_InsectoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_InsectoidGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_InsectoidPheromones>1</GR_InsectoidPheromones>
+		</products>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
 
 	<RecipeDef ParentName="GR_HybridProsthesisBase">
 		<defName>GR_MiniatureThrumboHorn</defName>
@@ -890,6 +1010,46 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>	
+	
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_MechaSpine</defName>
+		<label>animal Implant: mechanoid spine (tier 3)</label>
+		<description>Craft a bionic implant adding a plasteel structure with active mechanites to the creature's skeletal system.</description>
+		<jobString>Making crocodile spine implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantUraniumWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MechanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantUraniumWireMesh</li>
+				<li>GR_MechanoidGenetic</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MechaSpine>1</GR_MechaSpine>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
 
 	<!--=============== Brain ====================-->	
 
@@ -1126,6 +1286,53 @@
 		</products>
 		<skillRequirements>
 			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>	
+	
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_MechaHeart</defName>
+		<label>animal Implant: mechanoid heart (tier 3)</label>
+		<description>Craft a bionic heart strengthened by the action of active mechanites.</description>
+		<jobString>Making mechanoid heart implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantUraniumWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_MechanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantUraniumWireMesh</li>
+				<li>Silver</li>
+				<li>GR_MechanoidGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MechaHeart>1</GR_MechaHeart>
+		</products>
+		<skillRequirements>
+			<Crafting>12</Crafting>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>	
