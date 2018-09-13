@@ -206,6 +206,8 @@
 			</li>
 		</comps>
 		<race>
+		<deathActionWorkerClass>ExplosionTypes.DeathActionWorker_BiggerExplosion</deathActionWorkerClass>
+			<executionRange>6</executionRange>
 			<thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 			<body>QuadrupedAnimalWithHoovesAndHump</body>
 			<herdAnimal>false</herdAnimal>
@@ -592,6 +594,16 @@
 				<customResourceString>ComponentIndustrialDesc</customResourceString>
 
 			</li>
+			<li Class="CompProperties_Milkable">
+				<milkDef>GR_MechaMilk</milkDef>
+				<milkIntervalDays>2</milkIntervalDays>
+				<milkAmount>1</milkAmount>
+			</li>
+			<li Class="CompProperties_Shearable">
+				<woolDef>GR_MechaWool</woolDef>
+				<shearIntervalDays>25</shearIntervalDays>
+				<woolAmount>50</woolAmount>
+			</li>
 			<li Class="DraftingPatcher.CompProperties_Draftable">
 				<carrymore>true</carrymore>
 				<mechablast>true</mechablast>
@@ -661,7 +673,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Mecharat</defName>
 		<label>mecha-rat</label>
-		<description>This tiny cybernetic organism can be mass-produced as a kind of "suicide weapon". It is very fast, and armed with a short ranged stun gun, so hordes of mecha-rats can be sent to the front lines to keep enemies stunned and in check. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components.\n\nUseful abilities: As long as a tamer is near to direct it, mecha-rats can be sent to the enemy to stun them. Like all mechanoid hybrids it produces industrial components every couple daysh.</description>
+		<description>This tiny cybernetic organism can be mass-produced as a kind of "suicide weapon". It is very fast, and armed with a short ranged stun gun, so hordes of mecha-rats can be sent to the front lines to keep enemies stunned and in check. Like all mechanoid hybrids, it doesn't need to eat, it can't reproduce and it doesn't age. It needs to rest a bit to recharge its organic components.\n\nUseful abilities: As long as a tamer is near to direct it, mecha-rats can be sent to the enemy to stun them. Like all mechanoid hybrids it produces industrial components every couple days.</description>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<statBases>
 			<MoveSpeed>12</MoveSpeed>
@@ -693,7 +705,7 @@
 
 		<verbs>
 			<li>
-				
+
 				<verbClass>Verb_Shoot</verbClass>
 				<accuracyTouch>1</accuracyTouch>
 				<accuracyShort>1</accuracyShort>
@@ -784,7 +796,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	
+
 	<!-- Mechanoid - Reptile -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Mechaturtle</defName>
@@ -911,8 +923,8 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	
-		<!-- Mechanoid - Wolf -->
+
+	<!-- Mechanoid - Wolf -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Mechawolf</defName>
 		<label>mechawolf</label>
@@ -1038,8 +1050,8 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	
-	
+
+
 	<!-- Mechanoid - Thrumbo -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>GR_Mechathrumbo</defName>
@@ -1164,6 +1176,10 @@
 						<volume>(0.6, 0.8, 0.6)</volume>
 					</shadowData>
 				</bodyGraphicData>
+				<butcherBodyPart>
+					<bodyPartGroup>HornAttackTool</bodyPartGroup>
+					<thing>ThrumboHorn</thing>
+				</butcherBodyPart>
 			</li>
 		</lifeStages>
 	</PawnKindDef>

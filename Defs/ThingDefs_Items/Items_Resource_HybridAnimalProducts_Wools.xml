@@ -279,8 +279,8 @@
 		</statBases>
 		<stuffProps>
 			<color>(233,233,233)</color>
-		
-			
+
+
 		</stuffProps>
 	</ThingDef>
 
@@ -298,8 +298,41 @@
 		<tradeability>Sellable</tradeability>
 		<stuffProps>
 			<color>(233,233,233)</color>
-			
+
 		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="WoolBase">
+		<defName>GR_MechaWool</defName>
+		<label>mechanoid wool</label>
+		<description>This wool seems to be strengthened by plasteel micro-fibers, and covered with advanced circuitry.</description>
+		<graphicData>
+			<texPath>Things/Item/GR_MechaWool</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<MarketValue>15</MarketValue>
+			<Mass>0.05</Mass>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>3</DeteriorationRate>
+			<StuffPower_Armor_Sharp>1.5</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>2.5</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>25</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<commonality>0.20</commonality>
+			<color>(202,202,202)</color>
+
+		</stuffProps>
+
+
 	</ThingDef>
 
 

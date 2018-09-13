@@ -6,13 +6,13 @@
 
 &lt;size=24&gt;Features&lt;/size&gt;
 
-- Hybridization: Extract genes from Bears, Chickens, Boomalopes, Muffalos, Wolves, Rodents, Reptiles, Insectoids and Thrumbos, and create hybrids of these species. Some combinations can go both ways, so for example a bearalope is different from a boombear, and you will get one at random. A total of 49 new creatures for you to play with. Some very useful, others... less so.
+- Hybridization: Extract genes from Bears, Chickens, Boomalopes, Muffalos, Wolves, Rodents, Reptiles, Insectoids and Thrumbos, and create hybrids of these species. Some combinations can go both ways, so for example a bearalope is different from a boombear, and you will get one at random. A total of 58 new creatures for you to play with. Some very useful, others... less so.
 
 - Hybrid implants: The Growth Vat can be used to create either animal or human implants. Using different animal genes, you can create implants such as Thrumbo Legs, or Chitinous Hearts, and turn your scientific aberrations into even more bizarre creatures. By using humanoid genes, you can mix them with animal genes and create several hybrid implants to improve your colonists.
 
 - Alpha Creatures: With the Animal Enrichment research, you can turn regular animals into Alphas, more evolved versions of the base creature. A total of 9 new creatures for you to play with.
 
-- Animal Control: With the Animal Control research, you can directly control your animals. Draft them and move them at will! It also gives special abilities depending on the creature, so wolf hybrids can use Adrenaline Rush, thrumbo hybrids can stampede, and so on. 9 new abilities, and any combinations of them, open up fascinating new tactical possibilities.
+- Animal Control: With the Animal Control research, you can directly control your animals. Draft them and move them at will! It also gives special abilities depending on the creature, so wolf hybrids can use Adrenaline Rush, thrumbo hybrids can stampede, and so on. 10 new abilities, and any combinations of them, open up fascinating new tactical possibilities.
 
 &lt;size=24&gt;Issues&lt;/size&gt;
 Some of the biggest animals might flicker. This is to be expected, since a few of them are bigger than Thrumbos!
@@ -26,23 +26,27 @@ How do I progress? Here is a mini-guide:
 - Build the Gene Pod to mix the genes of different animals, and fill an empty incubator with the mixture.
 - The incubator will hatch in a day. Keep it warm! The creature will be born tamed.
 - Results are sometimes random! If you mix Bear and Chicken, you might get a Bearchicken or a Chickenbear. Or the experiment can also go wrong...
-- Finally, research the Insectoid Genome, Reptilian Genome and the Advanced genetic engineering techs, build the Advanced Gene Pod and experiment with Insectoids, Reptiles and Thrumbos to get the strongest creatures in the game.
+- Finally, research the Insectoid Genome, Reptilian Genome and the Advanced genetic engineering techs, build the Advanced Gene Pod and experiment with Insectoids, Reptiles and Thrumbos to get the strongest creatures in the game. The advanced mechanite bio-integration is end-game, and unlocks mechanoid experimentation.
 - On a different path, you can research humanoid genetic engineering, and develop hybrid implants to modify your colonists. Yeah, you can create a colonist that lays chicken eggs twice a day. It's hilarious and disgusting.
 - On yet another different path, you can research animal enrichment, which allow you to create Alpha animals with the alpha serum extraction table and the animal enrichment center.
 - Researching animal control gives you access to fascinating new abilities in all your hybrids and alphas. Just build the Animal Control Hub.
 - Finally, the age drugs tech allows you to mature your animals much faster!
 
 &lt;size=24&gt;Plans for the future&lt;/size&gt;
-- Armoured and Plant-like creatures
+- Plant-like creatures
 - Hybrids with creatures from other animal mods
 
 &lt;size=24&gt;Compatibility&lt;/size&gt;
 Incompatible with Pawns Are Capable
-Compatible with Animal Collab Project
+Compatible with Animal Collab Project (not yet in B19, waiting for ModCheck)
 Uses Nightinggale's Modcheck mod (no need to download)
 Uses Harmony (no need to download)
 
+&lt;size=24&gt;Credit&lt;/size&gt;
+Some sounds by Mike Koenig, SoundBible.com 
+
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v3.2: Added Mechanoid Hybrids, several new animal implants, fixed the mad scientist merchant. Full Changelog can be seen on GitHub (13/09/18)
 v3.101: Added special ability for eldritch hybrids using the Animal Control research. The Boombeetles ranged attacks work again! Also some light bugfixing (31/08/18)
 v3.1: LOTS of hybrid implants to modify your creatures added! You can now create implants that only work on hybrids and alphas, giving you a wide selection to improve your creatures. Also, there is no longer a need to have third party mods (30/08/18)
 v3.04: B19 Version (29/08/18)

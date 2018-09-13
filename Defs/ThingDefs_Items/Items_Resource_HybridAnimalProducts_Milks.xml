@@ -65,6 +65,24 @@
 			<li>AnimalProductRaw</li>
 		</thingCategories>
 	</ThingDef>
+	
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>GR_MechaMilk</defName>
+		<label>mechanoid milk</label>
+		<description>This metallic, quicksilver-like substance is not edible. It can be processed in a refinery to obtain neutroamine, chemfuel and a bit of silver.</description>
+		<graphicData>
+			<texPath>Things/Item/GR_QuicksilverMilk</texPath>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.045</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+		</statBases>		
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+	</ThingDef>
 
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>GR_BearffaloMilk</defName>
